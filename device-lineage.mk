@@ -11,6 +11,9 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 PRODUCT_PACKAGES += \
     ANGLE
 
+# Kernel
+TARGET_PREBUILT_KERNEL := device/google/tangorpro-kernel/Image.lz4
+
 # Build necessary packages for vendor
 
 # Audio
