@@ -26,3 +26,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="tangorpro-user 13 TQ3A.230705.001.B4 10255998 release-keys"
 
 BUILD_FINGERPRINT := google/tangorpro/tangorpro:13/TQ3A.230705.001.B4/10255998:user/release-keys
+
+$(call inherit-product, vendor/google/tangorpro/tangorpro-vendor.mk)
