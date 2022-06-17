@@ -1,3 +1,6 @@
+# Dock
+genfscon sysfs /devices/platform/google,dock/power_supply/dock         u:object_r:sysfs_batteryinfo:s0
+
 # Touch
 genfscon sysfs /devices/platform/10d10000.spi/spi_master/spi0/spi0.0   u:object_r:sysfs_touch:s0
 genfscon proc  /nvt_baseline                                           u:object_r:proc_touch:s0
@@ -8,3 +11,6 @@ genfscon proc  /nvt_fw_version                                         u:object_
 genfscon proc  /nvt_heatmap                                            u:object_r:proc_touch:s0
 genfscon proc  /nvt_raw                                                u:object_r:proc_touch:s0
 genfscon proc  /nvt_selftest                                           u:object_r:proc_touch:s0
+
+# system suspend wakeup files
+genfscon sysfs /devices/platform/google,dock/power_supply/dock/wakeup  u:object_r:sysfs_wakeup:s0
