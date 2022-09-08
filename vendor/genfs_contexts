@@ -15,10 +15,6 @@ genfscon proc  /nvt_selftest                                           u:object_
 # system suspend wakeup files
 genfscon sysfs /devices/platform/google,dock/power_supply/dock/wakeup  u:object_r:sysfs_wakeup:s0
 
-# Privacy LED
-genfscon sysfs /devices/platform/pwmleds/leds/green/brightness         u:object_r:sysfs_leds:s0
-
-
 # Pogo usb control & status
 genfscon sysfs /devices/platform/google,pogo/pogo_usb_active           u:object_r:sysfs_pogo_usb:s0
 genfscon sysfs /devices/platform/google,pogo/pogo_usb_capable          u:object_r:sysfs_pogo_usb:s0
