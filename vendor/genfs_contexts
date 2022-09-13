@@ -13,7 +13,10 @@ genfscon proc  /nvt_raw                                                u:object_
 genfscon proc  /nvt_selftest                                           u:object_r:proc_touch:s0
 
 # system suspend wakeup files
-genfscon sysfs /devices/platform/google,dock/power_supply/dock/wakeup  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/google,dock/power_supply/dock/wakeup                                    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10d10000.spi/spi_master/spi0/spi0.0/power_supply/nvt-pen-battery/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10d10000.spi/spi_master/spi0/spi0.0/input/input2/wakeup                 u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10d10000.spi/spi_master/spi0/spi0.0/wakeup                              u:object_r:sysfs_wakeup:s0
 
 # Privacy LED
 genfscon sysfs /devices/platform/pwmleds/leds/green/brightness         u:object_r:sysfs_leds:s0
