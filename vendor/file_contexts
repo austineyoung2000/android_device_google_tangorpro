@@ -9,4 +9,3 @@
 
 # Privacy LED
 /vendor/bin/hw/android\.hardware\.lights-service\.tangorpro          u:object_r:hal_light_default_exec:s0
-/mnt/vendor/persist/led(/.*)?                                        u:object_r:persist_leds_file:s0
