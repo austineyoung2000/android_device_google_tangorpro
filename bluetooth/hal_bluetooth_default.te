@@ -10,6 +10,8 @@ allow hal_bluetooth_synabtlinux hci_attach_dev:chr_file rw_file_perms;
 allow hal_bluetooth_synabtlinux hal_power_stats_vendor_service:service_manager find;
 add_hwservice(hal_bluetooth_synabtlinux, hal_bluetooth_coexistence_hwservice)
 vndbinder_use(hal_bluetooth_synabtlinux)
+binder_call(hal_bluetooth_synabtlinux, hal_power_stats_default)
+get_prop(hal_bluetooth_synabtlinux, boot_status_prop)
 
 allow hal_bluetooth_synabtlinux sscoredump_vendor_data_crashinfo_file:dir create_dir_perms;
 allow hal_bluetooth_synabtlinux sscoredump_vendor_data_crashinfo_file:file create_file_perms;
