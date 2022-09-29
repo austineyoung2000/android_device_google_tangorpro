@@ -30,3 +30,6 @@ genfscon sysfs /devices/platform/google,pogo/pogo_docked               u:object_
 genfscon sysfs /devices/platform/google,pogo/equal_priority            u:object_r:sysfs_pogo_usb:s0
 genfscon sysfs /devices/platform/google,pogo/move_data_to_usb          u:object_r:sysfs_pogo_usb:s0
 genfscon sysfs /devices/platform/google,pogo/extcon                    u:object_r:sysfs_extcon:s0
+genfscon sysfs /devices/platform/google,pogo/hall1_s                   u:object_r:sysfs_pogo_usb:s0
+genfscon sysfs /devices/platform/google,pogo/hall1_n                   u:object_r:sysfs_pogo_usb:s0
+genfscon sysfs /devices/platform/google,pogo/hall2_s                   u:object_r:sysfs_pogo_usb:s0
