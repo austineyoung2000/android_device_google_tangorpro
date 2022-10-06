@@ -7,4 +7,3 @@ hal_server_domain(hal_drm_cast, hal_drm)
 allow hal_drm_cast mnt_vendor_file:dir search;
 allow hal_drm_cast persist_file:dir search;
 allow hal_drm_cast device_cert_file:file r_file_perms;
-neverallow { domain -init -vendor_init -hal_drm_cast } device_cert_file:file no_rw_file_perms;
