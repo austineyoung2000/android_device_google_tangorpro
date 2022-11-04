@@ -54,7 +54,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 DEVICE_MANIFEST_FILE += \
        device/google/tangorpro/bluetooth/manifest_bluetooth.xml
 DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += device/google/tangorpro/bluetooth/device_framework_matrix_product.xml
-BOARD_SEPOLICY_DIRS += device/google/tangorpro-sepolicy/bluetooth
+BOARD_SEPOLICY_DIRS += device/google/tangorpro/sepolicy/bluetooth
 PRODUCT_PACKAGES += android.hardware.bluetooth@1.1-service.synabtlinux \
         android.hardware.bluetooth.prebuilt.xml \
         android.hardware.bluetooth_le.prebuilt.xml
