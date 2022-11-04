@@ -17,7 +17,7 @@
 # Bluetooth HAL and Pixel extension
 DEVICE_MANIFEST_FILE += \
        device/google/tangorpro/bluetooth/manifest_bluetooth.xml
-BOARD_SEPOLICY_DIRS += device/google/tangorpro-sepolicy/bluetooth
+BOARD_SEPOLICY_DIRS += device/google/tangorpro/sepolicy/bluetooth
 PRODUCT_PACKAGES += android.hardware.bluetooth@1.1-service.synabtlinux
 # Bluetooth SAR test tools
 PRODUCT_PACKAGES_DEBUG += bt_sar_test
