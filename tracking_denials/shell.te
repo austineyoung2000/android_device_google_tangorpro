@@ -1,0 +1,2 @@
+# b/263430971
+dontaudit shell sysfs_touch_gti:dir { search };
