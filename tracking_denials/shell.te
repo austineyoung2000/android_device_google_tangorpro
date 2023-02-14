@@ -1,4 +1,0 @@
-# b/263430971
-dontaudit shell sysfs_touch_gti:dir { search };
-# b/264823366
-dontaudit shell sysfs_touch:dir { search };
