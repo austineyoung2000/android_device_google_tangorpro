@@ -2,4 +2,3 @@ hal_camera_default boot_status_prop file b/275001805
 hal_camera_default edgetpu_app_service service_manager b/275001805
 hal_dumpstate_default modem_stat_data_file dir b/239115418
 shell sysfs_touch dir b/264823366
-system_suspend sysfs_aoc dir b/281814892
