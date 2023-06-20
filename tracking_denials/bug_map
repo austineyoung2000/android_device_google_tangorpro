@@ -1,3 +1,1 @@
-hal_camera_default boot_status_prop file b/275001805
-hal_camera_default edgetpu_app_service service_manager b/275001805
 shell sysfs_touch dir b/264823366
