@@ -48,6 +48,9 @@ PRODUCT_PACKAGES += \
     android.hardware.confirmationui@1.0.vendor:64 \
     libteeui_hal_support.vendor:64
 
+# GMS
+WITH_GMS_COMMS_SUITE := false
+
 # HIDL
 PRODUCT_PACKAGES += \
     libhidltransport.vendor \
