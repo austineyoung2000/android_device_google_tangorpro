@@ -49,6 +49,9 @@ PRODUCT_PACKAGES += \
     android.hardware.confirmationui-lib.trusty:64 \
     libteeui_hal_support.vendor:64
 
+# GMS
+WITH_GMS_COMMS_SUITE := false
+
 # Graphics
 PRODUCT_PACKAGES += \
     libEGL_angle \
