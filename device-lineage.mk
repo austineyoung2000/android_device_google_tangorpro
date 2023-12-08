@@ -7,6 +7,10 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
+# ANGLE - Almost Native Graphics Layer Engine
+PRODUCT_PACKAGES += \
+    ANGLE
+
 # Build necessary packages for vendor
 
 # Audio
@@ -30,10 +34,15 @@ PRODUCT_PACKAGES += \
 # Codec2
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.0.vendor \
+    android.hardware.media.c2@1.1.vendor:64 \
+    android.hardware.media.c2@1.2.vendor:64 \
     libacryl \
     libacryl_hdr_plugin \
     libavservices_minijail.vendor:64 \
     libcodec2_hidl@1.0.vendor \
+    libcodec2_hidl@1.1.vendor:64 \
+    libcodec2_hidl@1.2.vendor:64 \
+    libcodec2_soft_common.vendor:64 \
     libcodec2_vndk.vendor \
     libexynosutils \
     libexynosv4l2 \
@@ -44,9 +53,9 @@ PRODUCT_PACKAGES += \
 
 # Confirmation UI
 PRODUCT_PACKAGES += \
-    android.hardware.confirmationui@1.0.vendor:64 \
     android.hardware.confirmationui-V1-ndk.vendor:64 \
     android.hardware.confirmationui-lib.trusty:64 \
+    android.hardware.confirmationui@1.0.vendor:64 \
     libteeui_hal_support.vendor:64
 
 # GMS
@@ -125,13 +134,17 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor:64 \
     android.hardware.keymaster@4.1.vendor:64 \
     android.hardware.neuralnetworks-V4-ndk.vendor:64 \
+    android.hardware.neuralnetworks@1.0.vendor:64 \
+    android.hardware.neuralnetworks@1.1.vendor:64 \
+    android.hardware.neuralnetworks@1.2.vendor:64 \
+    android.hardware.neuralnetworks@1.3.vendor:64 \
     android.hardware.oemlock-V1-ndk.vendor:64 \
+    android.hardware.thermal-V1-ndk.vendor:32 \
     android.hardware.thermal@1.0.vendor:32 \
     android.hardware.thermal@2.0.vendor:32 \
-    android.hardware.thermal-V1-ndk.vendor:32 \
     android.hardware.weaver-V2-ndk.vendor:64 \
     android.hardware.wifi-V1-ndk.vendor:64 \
-    com.google.hardware.pixel.display-V6-ndk.vendor
+    com.google.hardware.pixel.display-V9-ndk.vendor
 
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop

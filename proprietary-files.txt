@@ -14,8 +14,8 @@ product/etc/firmware/music_detector.sound_model_2
 product/etc/firmware/music_detector.sound_model_tflite
 
 # Camera extensions
-product/app/PixelCameraServicesT6PRO/PixelCameraServicesT6PRO.apk;PRESIGNED
 product/etc/permissions/androidx.camera.extensions.impl.xml
+product/priv-app/PixelCameraServicesT6PRO/PixelCameraServicesT6PRO.apk;PRESIGNED
 
 # Cast
 product/etc/default-permissions/default-permissions_SmartDisplayPrebuilt.xml
