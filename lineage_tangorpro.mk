@@ -24,8 +24,8 @@ TARGET_SCREEN_WIDTH := 2560
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=tangorpro \
-    PRIVATE_BUILD_DESC="tangorpro-user 14 UQ1A.240105.002 11129216 release-keys"
+    PRIVATE_BUILD_DESC="tangorpro-user 14 UQ1A.240205.002 11224170 release-keys"
 
-BUILD_FINGERPRINT := google/tangorpro/tangorpro:14/UQ1A.240105.002/11129216:user/release-keys
+BUILD_FINGERPRINT := google/tangorpro/tangorpro:14/UQ1A.240205.002/11224170:user/release-keys
 
 $(call inherit-product, vendor/google/tangorpro/tangorpro-vendor.mk)
