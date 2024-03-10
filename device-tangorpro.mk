@@ -27,6 +27,8 @@ $(call inherit-product-if-exists, vendor/google_devices/tangorpro/proprietary/ta
 $(call inherit-product-if-exists, vendor/google_devices/tangorpro/proprietary/WallpapersTangorpro.mk)
 $(call inherit-product-if-exists, vendor/google_devices/tangorpro/proprietary/device-vendor.mk)
 
+$(call inherit-product, device/google/tangorpro/uwb/uwb_calibration_country.mk)
+
 DEVICE_PACKAGE_OVERLAYS += device/google/tangorpro/tangorpro/overlay
 PRODUCT_SOONG_NAMESPACES += device/google/tangorpro
 PRODUCT_PACKAGES += \
@@ -160,6 +162,13 @@ include device/google/tangorpro/fingerprint_config.mk
 
 # Trusty liboemcrypto.so
 PRODUCT_SOONG_NAMESPACES += vendor/google_devices/tangorpro/prebuilts
+ifneq (,$(filter AP1%,$(RELEASE_PLATFORM_VERSION)))
+PRODUCT_SOONG_NAMESPACES += vendor/google_devices/tangorpro/prebuilts/trusty/24Q1
+else ifneq (,$(filter AP2%,$(RELEASE_PLATFORM_VERSION)))
+PRODUCT_SOONG_NAMESPACES += vendor/google_devices/tangorpro/prebuilts/trusty/24Q2
+else
+PRODUCT_SOONG_NAMESPACES += vendor/google_devices/tangorpro/prebuilts/trusty/trunk
+endif
 
 # Wifi SAP Interface Name
 PRODUCT_PROPERTY_OVERRIDES += \
