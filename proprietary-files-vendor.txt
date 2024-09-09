@@ -252,7 +252,6 @@ vendor/lib/libcast_auth.so
 vendor/lib/libcast_auth_aidl-cpp.so
 vendor/lib/libdisplaycolor.so
 vendor/lib/libedgetpu_client.google.so
-vendor/lib/libedgetpu_util.so
 vendor/lib/libfvsam_prm_parser.so
 vendor/lib/libgc2_av1_dec.so
 vendor/lib/libgc2_base.so
