@@ -26,8 +26,8 @@ TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 2560
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="tangorpro-user 15 AP3A.241105.007 12470370 release-keys" \
-    BuildFingerprint=google/tangorpro/tangorpro:15/AP3A.241105.007/12470370:user/release-keys \
+    BuildDesc="tangorpro-user 15 AP4A.241205.013 12621605 release-keys" \
+    BuildFingerprint=google/tangorpro/tangorpro:15/AP4A.241205.013/12621605:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
