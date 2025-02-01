@@ -2,6 +2,9 @@
 BOARD_SEPOLICY_DIRS += device/google/tangorpro/sepolicy/vendor
 BOARD_SEPOLICY_DIRS += device/google/tangorpro/sepolicy/tracking_denials
 
+# audio
+BOARD_SEPOLICY_DIRS += device/google/tangorpro/sepolicy/audio
+
 # fingerprint
 BOARD_SEPOLICY_DIRS += device/google/tangorpro/sepolicy/fingerprint_capacitance
 
