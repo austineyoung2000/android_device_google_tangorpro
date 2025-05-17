@@ -21,6 +21,25 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel Tablet
 PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
 
+# Matrixx
+MATRIXX_BUILD_TYPE := Official
+MATRIXX_MAINTAINER := EliteDarkKaiser
+MATRIXX_CHIPSET := GS201
+MATRIXX_BATTERY := 7020mAh
+MATRIXX_DISPLAY := 1600x2560
+
+# Ship UDFPS
+TARGET_HAS_UDFPS := true
+
+# To include Gapps 
+WITH_GMS := true
+
+# To Add cinematic wallpaer support (only supported in gapps build not in vanilla remove this flag for vanilla builds)
+TARGET_SUPPORTS_WALLEFFECT := true
+
+# To support Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 2560
