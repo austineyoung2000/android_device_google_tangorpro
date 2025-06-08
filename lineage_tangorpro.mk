@@ -22,6 +22,10 @@ PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 2560
 
+AXION_CAMERA_REAR_INFO := 8
+AXION_CAMERA_FRONT_INFO := 8
+AXION_MAINTAINER := EliteDarkKaiser
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="tangorpro-user 16 BP3A.251105.013.A1 14171100 release-keys" \
     BuildFingerprint=google/tangorpro/tangorpro:16/BP3A.251105.013.A1/14171100:user/release-keys \
