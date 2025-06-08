@@ -26,6 +26,8 @@ AXION_CAMERA_REAR_INFO := 8
 AXION_CAMERA_FRONT_INFO := 8
 AXION_MAINTAINER := EliteDarkKaiser
 
+TARGET_INCLUDE_VIPERFX := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="tangorpro-user 16 BP3A.251105.013.A1 14171100 release-keys" \
     BuildFingerprint=google/tangorpro/tangorpro:16/BP3A.251105.013.A1/14171100:user/release-keys \
