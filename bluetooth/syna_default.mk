@@ -77,8 +77,3 @@ PRODUCT_PRODUCT_PROPERTIES += \
        bluetooth.profile.map.server.enabled=false \
        bluetooth.profile.pbap.server.enabled=false \
        bluetooth.profile.sap.server.enabled=false \
-
-BLUETOOTH_UART_PORT = /dev/ttySAC18
-
-# Inject soong bluetooth configurations
-$(call soong_config_set,bluetooth,bluetooth_uart_port,$(BLUETOOTH_UART_PORT))

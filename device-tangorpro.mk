@@ -27,7 +27,7 @@ BOARD_WITHOUT_RADIO := true
 $(call inherit-product, device/google/tangorpro/uwb/uwb_calibration_country.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/google/tangorpro/tangorpro/overlay
-PRODUCT_SOONG_NAMESPACES += device/google/tangorpro
+
 PRODUCT_PACKAGES += \
         UwbOverlayT6pro \
         WifiOverlayT6pro
@@ -54,11 +54,6 @@ include device/google/gs-common/touch/gti/predump_gti.mk
 include device/google/gs-common/touch/nvt/nvt.mk
 include device/google/gs-common/led/led.mk
 include device/google/gs-common/wlan/dump.mk
-
-# go/lyric-soong-variables
-$(call soong_config_set,lyric,camera_hardware,tangorpro)
-$(call soong_config_set,lyric,tuning_product,tangorpro)
-$(call soong_config_set,google3a_config,target_device,tangorpro)
 
 include device/google/tangorpro/uwb/uwb_calibration.mk
 
@@ -116,44 +111,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     bluetooth.server.automatic_turn_on=true
 
-# Keymaster HAL
-#LOCAL_KEYMASTER_PRODUCT_PACKAGE ?= android.hardware.keymaster@4.1-service
-
-# Gatekeeper HAL
-#LOCAL_GATEKEEPER_PRODUCT_PACKAGE ?= android.hardware.gatekeeper@1.0-service.software
-
-
-# Gatekeeper
-# PRODUCT_PACKAGES += \
-# 	android.hardware.gatekeeper@1.0-service.software
-
-# Keymint replaces Keymaster
-# PRODUCT_PACKAGES += \
-# 	android.hardware.security.keymint-service
-
-# Keymaster
-#PRODUCT_PACKAGES += \
-#	android.hardware.keymaster@4.0-impl \
-#	android.hardware.keymaster@4.0-service
-
-#PRODUCT_PACKAGES += android.hardware.keymaster@4.0-service.remote
-#PRODUCT_PACKAGES += android.hardware.keymaster@4.1-service.remote
-#LOCAL_KEYMASTER_PRODUCT_PACKAGE := android.hardware.keymaster@4.1-service
-#LOCAL_KEYMASTER_PRODUCT_PACKAGE ?= android.hardware.keymaster@4.1-service
-
-# PRODUCT_PROPERTY_OVERRIDES += \
-# 	ro.hardware.keystore_desede=true \
-# 	ro.hardware.keystore=software \
-# 	ro.hardware.gatekeeper=software
-
 # Fingerprint
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
-
-FPC_MODULE_TYPE=1542_S
-$(call soong_config_set,fp_hal_feature,pixel_product, product_b)
-# Fingerprint config
-include device/google/tangorpro/fingerprint_config.mk
 
 # Wifi HAL
 PRODUCT_SOONG_NAMESPACES += \

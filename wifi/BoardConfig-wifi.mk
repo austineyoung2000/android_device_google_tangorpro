@@ -22,8 +22,6 @@ BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 BOARD_HOSTAPD_DRIVER := NL80211
 # Wifi interface combination - {1 STA + 1 P2P} or {1 STA + 1 NAN} or {1 AP}
 WIFI_HAL_INTERFACE_COMBINATIONS := {{{STA}, 1}, {{P2P, NAN}, 1}}, {{{AP}, 1}}
-WIFI_FEATURE_WIFI_EXT_HAL := true
-WIFI_FEATURE_IMU_DETECTION := true
 # Avoid Wifi reset on MAC Address change
 WIFI_AVOID_IFACE_RESET_MAC_CHANGE := true
 WIFI_FEATURE_HOSTAPD_11AX := true
@@ -32,6 +30,3 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 PRODUCT_COPY_FILES += \
     device/google/tangorpro/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     device/google/tangorpro/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
-
-# Add WIFI_FEATURE_IMU_DETECTION to soong_config
-$(call soong_config_set,wifi,feature_imu_detection,$(WIFI_FEATURE_IMU_DETECTION))
