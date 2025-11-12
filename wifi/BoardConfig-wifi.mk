@@ -26,7 +26,3 @@ WIFI_HAL_INTERFACE_COMBINATIONS := {{{STA}, 1}, {{P2P, NAN}, 1}}, {{{AP}, 1}}
 WIFI_AVOID_IFACE_RESET_MAC_CHANGE := true
 WIFI_FEATURE_HOSTAPD_11AX := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
-
-PRODUCT_COPY_FILES += \
-    device/google/tangorpro/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-    device/google/tangorpro/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf

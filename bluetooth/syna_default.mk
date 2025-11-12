@@ -54,14 +54,6 @@ PRODUCT_PACKAGES += android.hardware.bluetooth@1.1-service.synabtlinux \
         android.hardware.bluetooth.prebuilt.xml \
         android.hardware.bluetooth_le.prebuilt.xml
 
-# Bluetooth Tx power caps
-PRODUCT_COPY_FILES += \
-    device/google/tangorpro/bluetooth/bluetooth_power_limits_tangorpro.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits.csv \
-    device/google/tangorpro/bluetooth/bluetooth_power_limits_tangorpro_GTU8P_CA.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_GTU8P_CA.csv \
-    device/google/tangorpro/bluetooth/bluetooth_power_limits_tangorpro_GTU8P_EU.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_GTU8P_EU.csv \
-    device/google/tangorpro/bluetooth/bluetooth_power_limits_tangorpro_GTU8P_JP.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_GTU8P_JP.csv \
-    device/google/tangorpro/bluetooth/bluetooth_power_limits_tangorpro_GTU8P_US.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_GTU8P_US.csv \
-
 # default BDADDR for EVB only
 PRODUCT_PROPERTY_OVERRIDES += \
        ro.vendor.bluetooth.evb_bdaddr="22:22:22:33:44:55"

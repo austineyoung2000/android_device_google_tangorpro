@@ -24,8 +24,6 @@ TARGET_KERNEL_PLATFORM_SOURCE := google/gs-$(TARGET_LINUX_KERNEL_VERSION)
 
 BOARD_WITHOUT_RADIO := true
 
-$(call inherit-product, device/google/tangorpro/uwb/uwb_calibration_country.mk)
-
 DEVICE_PACKAGE_OVERLAYS += device/google/tangorpro/tangorpro/overlay
 
 PRODUCT_PACKAGES += \
@@ -48,41 +46,19 @@ USE_TABLET_BT_COD := true
 # This flag need to be set before device/google/gs201/device.mk
 DISABLE_TELEPHONY_EUICC := true
 
-include device/google/tangorpro/audio/tangorpro/audio-tables.mk
 include device/google/gs201/device-shipping-common.mk
 include device/google/gs-common/touch/gti/predump_gti.mk
 include device/google/gs-common/touch/nvt/nvt.mk
 include device/google/gs-common/led/led.mk
 include device/google/gs-common/wlan/dump.mk
 
-include device/google/tangorpro/uwb/uwb_calibration.mk
-
-# Touch files
+# UWB
 PRODUCT_COPY_FILES += \
-        device/google/tangorpro/NVTCapacitiveTouchScreen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/NVTCapacitiveTouchScreen.idc \
-        device/google/tangorpro/NVTCapacitivePen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/NVTCapacitivePen.idc \
-        device/google/tangorpro/USI_Stylus.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/USI_Stylus.idc
-
-# Init files
-PRODUCT_COPY_FILES += \
-	device/google/tangorpro/conf/init.tangorpro.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.tangorpro.rc
+    frameworks/native/data/etc/android.hardware.uwb.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.uwb.xml
 
 # Recovery files
 PRODUCT_COPY_FILES += \
         device/google/tangorpro/conf/init.recovery.device.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.tangorpro.rc
-
-# Camera
-PRODUCT_COPY_FILES += \
-	device/google/tangorpro/media_profiles_tangorpro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
-
-# Thermal Config
-PRODUCT_COPY_FILES += \
-	device/google/tangorpro/thermal_info_config_tangorpro.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json \
-	device/google/tangorpro/thermal_info_config_charge_tangorpro.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config_charge.json \
-
-# Power HAL config
-PRODUCT_COPY_FILES += \
-	device/google/tangorpro/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # PowerStats HAL
 PRODUCT_SOONG_NAMESPACES += device/google/tangorpro/powerstats
@@ -149,9 +125,6 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.software.telecom.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.telecom.xml
 
 # Cast auth
-PRODUCT_COPY_FILES += \
-        device/google/tangorpro/cast_auth/tangor_ica.crt:$(TARGET_COPY_OUT_VENDOR)/etc/cert-chain.crt
-
 PRODUCT_PACKAGES += \
         libcast_auth
 
@@ -159,19 +132,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.tangorpro
 
-# LED Golden Config
-PRODUCT_COPY_FILES += \
-        device/google/tangorpro/lights/led_golden_calibration_LUT_white_CG.txt:$(TARGET_COPY_OUT_VENDOR)/etc/led_golden_calibration_LUT_white_CG.txt \
-        device/google/tangorpro/lights/led_golden_calibration_LUT_black_CG.txt:$(TARGET_COPY_OUT_VENDOR)/etc/led_golden_calibration_LUT_black_CG.txt
-
 # Device features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/tablet_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/tablet_core_hardware.xml
-
-# Display Config
-PRODUCT_COPY_FILES += \
-        device/google/tangorpro/tangorpro/display_golden_boe-ts110f5mlg0-rt4_cal0.pb:$(TARGET_COPY_OUT_VENDOR)/etc/display_golden_boe-ts110f5mlg0-rt4_cal0.pb \
-        device/google/tangorpro/tangorpro/display_golden_csot-ppa957db2d-rt4_cal0.pb:$(TARGET_COPY_OUT_VENDOR)/etc/display_golden_csot-ppa957db2d-rt4_cal0.pb
 
 # Enable HWC dynamic recomposition for display with index 0
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += vendor.display.dynamic_recomposition=1
@@ -190,11 +153,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.camera.increase_thread_priority_nodes_stop=true \
     persist.vendor.camera.debug.bypass_csi_link_crc_error=true
-
-# MIPI Coex Configs
-PRODUCT_COPY_FILES += \
-    device/google/tangorpro/radio/tangor_camera_front_mipi_coex_table.csv:$(TARGET_COPY_OUT_VENDOR)/etc/modem/camera_front_mipi_coex_table.csv \
-    device/google/tangorpro/radio/tangor_camera_rear_main_mipi_coex_table.csv:$(TARGET_COPY_OUT_VENDOR)/etc/modem/camera_rear_main_mipi_coex_table.csv
 
 # Cast ssid suffix go/gna-oem-device-support
 PRODUCT_PRODUCT_PROPERTIES += ro.odm.cast.ssid_suffix=ynn
