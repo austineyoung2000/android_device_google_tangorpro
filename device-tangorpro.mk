@@ -155,6 +155,10 @@ $(call soong_config_set,fp_hal_feature,pixel_product, product_b)
 # Fingerprint config
 include device/google/tangorpro/fingerprint_config.mk
 
+# Wifi HAL
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/synaptics/wlan/synadhd/config
+
 # Wifi SAP Interface Name
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.wifi.sap.interface=wlan1
