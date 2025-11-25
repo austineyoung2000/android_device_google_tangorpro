@@ -1,5 +1,7 @@
 #
 # SPDX-FileCopyrightText: 2021 The Android Open-Source Project
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-FileCopyrightText: The Calyx Institute
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -14,6 +16,7 @@ TARGET_KERNEL_PLATFORM_SOURCE := google/gs-$(TARGET_LINUX_KERNEL_VERSION)
 BOARD_WITHOUT_RADIO := true
 
 DEVICE_PACKAGE_OVERLAYS += device/google/tangorpro/tangorpro/overlay
+DEVICE_PACKAGE_OVERLAYS += device/google/tangorpro/tangorpro/overlay-lineage
 
 PRODUCT_PACKAGES += \
         UwbOverlayT6pro \
@@ -165,3 +168,37 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # SKU specific RROs
 PRODUCT_PACKAGES += \
     SettingsOverlayGTU8P
+
+# ANGLE - Almost Native Graphics Layer Engine
+PRODUCT_PACKAGES += \
+    ANGLE \
+    libEGL_angle \
+    libGLESv1_CM_angle \
+    libGLESv2_angle
+
+# Dumpstate
+PRODUCT_PACKAGES += \
+    dump_gsc.sh
+
+# GMS
+WITH_GMS_COMMS_SUITE := false
+
+# Init
+PRODUCT_PACKAGES += \
+    init.recovery.tangorpro.touch.rc
+
+# Overlays
+PRODUCT_PACKAGES += \
+    GrilRadioCustomizableNoRadio \
+    SettingsGoogleTangorproOverlay \
+    TangorproGMSOverlay \
+    TitanSettingsOverlay \
+    TitanSettingsProviderOverlay \
+    TitanSysuiConfigOverlay
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/vendor.prop
+
+# Sensors
+PRODUCT_PACKAGES += \
+    sensors.dynamic_sensor_hal
