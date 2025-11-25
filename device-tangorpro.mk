@@ -39,10 +39,13 @@ USE_TABLET_BT_COD := true
 DISABLE_TELEPHONY_EUICC := true
 
 include device/google/gs201/device-shipping-common.mk
-include device/google/gs-common/touch/gti/predump_gti.mk
-include device/google/gs-common/touch/nvt/nvt.mk
-include device/google/gs-common/led/led.mk
-include device/google/gs-common/wlan/dump.mk
+
+# Touch
+PRODUCT_PACKAGES += \
+    dump_touch.sh \
+    predump_gti0.sh \
+    predump_touch.sh \
+    touch_gti_ical
 
 # UWB
 PRODUCT_COPY_FILES += \
