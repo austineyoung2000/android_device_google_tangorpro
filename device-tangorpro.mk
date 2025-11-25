@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
 
 # Recovery files
 PRODUCT_COPY_FILES += \
-        device/google/tangorpro/conf/init.recovery.device.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.tangorpro.rc
+    device/google/tangorpro/recovery/init.recovery.device.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.tangorpro.rc
 
 # PowerStats HAL
 PRODUCT_SOONG_NAMESPACES += device/google/tangorpro/powerstats
