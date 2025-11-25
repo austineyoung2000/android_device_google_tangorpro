@@ -66,10 +66,6 @@ PRODUCT_SOONG_NAMESPACES += device/google/tangorpro/powerstats
 # Bluetooth HAL and Pixel extension
 include device/google/tangorpro/bluetooth/syna_default.mk
 
-# Spatial Audio
-PRODUCT_PACKAGES += \
-	libspatialaudio
-
 # optimize spatializer effect
 PRODUCT_PROPERTY_OVERRIDES += \
 	audio.spatializer.effect.util_clamp_min=300
@@ -124,10 +120,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.software.telecom.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.telecom.xml
 
-# Cast auth
-PRODUCT_PACKAGES += \
-        libcast_auth
-
 # Lights HAL
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.tangorpro
@@ -177,16 +169,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.audio.multi_usb_mode=true
 
-# Audio package
-PRODUCT_PACKAGES += \
-    audio_apmg3_aoc
-
 #Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.speech_enhancement.enable=1
-
-PRODUCT_PACKAGES += \
-    audio_speech_enhancer_aoc
 
 # SKU specific RROs
 PRODUCT_PACKAGES += \
