@@ -40,13 +40,6 @@ DISABLE_TELEPHONY_EUICC := true
 
 include device/google/gs201/device-shipping-common.mk
 
-# Touch
-PRODUCT_PACKAGES += \
-    dump_touch.sh \
-    predump_gti0.sh \
-    predump_touch.sh \
-    touch_gti_ical
-
 # UWB
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.uwb.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.uwb.xml
@@ -54,9 +47,6 @@ PRODUCT_COPY_FILES += \
 # Recovery files
 PRODUCT_COPY_FILES += \
     device/google/tangorpro/recovery/init.recovery.device.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.tangorpro.rc
-
-# PowerStats HAL
-PRODUCT_SOONG_NAMESPACES += device/google/tangorpro/powerstats
 
 # Bluetooth HAL and Pixel extension
 include device/google/tangorpro/bluetooth/syna_default.mk
@@ -178,10 +168,6 @@ PRODUCT_PACKAGES += \
     libEGL_angle \
     libGLESv1_CM_angle \
     libGLESv2_angle
-
-# Dumpstate
-PRODUCT_PACKAGES += \
-    dump_gsc.sh
 
 # GMS
 WITH_GMS_COMMS_SUITE := false
