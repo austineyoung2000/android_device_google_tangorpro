@@ -164,10 +164,7 @@ PRODUCT_PACKAGES += \
 
 # ANGLE - Almost Native Graphics Layer Engine
 PRODUCT_PACKAGES += \
-    ANGLE \
-    libEGL_angle \
-    libGLESv1_CM_angle \
-    libGLESv2_angle
+    ANGLE
 
 # GMS
 WITH_GMS_COMMS_SUITE := false
