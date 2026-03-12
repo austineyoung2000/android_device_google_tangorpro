@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. [CHAR LIMIT=TOAST] -->
+    <string name="low_memory">Planšetdatora atmiņa ir pilna. Dzēsiet dažus failus, lai atbrīvotu vietu.</string>
+
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog">Planšetdatora opcijas</string>
+
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will
+         be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm">Planšetdators tiks beidzēts.</string>
+
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions">Planšetdatora opcijas</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms">Šī lietotne var lasīt visas īsziņas, kas saglabātas planšetdatorā.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity">Ļauj lietotnei nodrošināt atsevišķu tās daļu nepārtrauktu atrašanos atmiņā. Tas var ierobežot pieejamo atmiņas daudzumu citām lietotnēm, tādējādi palēninot planšetdatora darbību.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted">Ļauj lietotnei tikt startētai, tiklīdz sistēma ir pabeigusi sāknēšanu. Šādi planšetdatora startēšana var notikt ilgāk un lietotne, ja tā darbojas nepārtraukti, var palēnināt planšetdatora vispārējo darbību.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky">Ļauj lietotnei sūtīt piesaistošas apraides, kas tiek saglabātas pēc apraides pabeigšanas. Pārmērīga izmantošana var palēnināt planšetdatora darbību vai padarīt tā darbību nestabilu, liekot izmantot pārāk daudz atmiņas.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts">Ļauj lietotnei lasīt datus par planšetdatorā glabātajām kontaktpersonām. Lietotnēm būs arī piekļuve kontiem jūsu planšetdatorā, kuros ir izveidotas kontaktpersonas. Tas var ietvert kontus, ko izveidojušas jūsu instalētās lietotnes. Ar šo atļauju lietotnes var saglabāt jūsu kontaktpersonu datus, savukārt ļaunprātīgas lietotnes var kopīgot kontaktpersonu datus, jums nezinot.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts">Ļauj lietotnei mainīt datus par planšetdatorā glabātajām kontaktpersonām. Ar šo atļauju lietotnes var dzēst kontaktpersonu datus.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog">Ļauj lietotnei pārveidot planšetdatora zvanu žurnālu, tostarp ienākošo un izejošo zvanu datus. Ļaunprātīgas lietotnes var to izmantot, lai dzēstu vai pārveidotu savu zvanu žurnālu.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCalendar">Šī lietotne var lasīt visus kalendāra pasākumus, kas saglabāti planšetdatorā, un kopīgot vai saglabāt jūsu kalendāra datus.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCalendar">Šī lietotne var pievienot, noņemt vai mainīt kalendāra pasākumus jūsu planšetdatorā. Šī lietotne var sūtīt ziņojumus, ko šķietami sūtījuši kalendāru īpašnieki, vai mainīt pasākumus, neinformējot to īpašniekus.</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock">novērst planšetdatora pāriešanu miega režīmā</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock">Ļauj lietotnei novērst planšetdatora pāriešanu miega režīmā.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_transmitIr">Ļauj lietotnei izmantot planšetdatora infrasarkano staru signāla raidītāju.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone">Ļauj lietotnei mainīt planšetdatora laika joslu.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts">Ļauj lietotnei iegūt planšetdatoram zināmo kontu sarakstu. Tas var ietvert jebkādus kontus, ko izveidojušas instalētās lietojumprogrammas.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState">Ļauj lietotnei saņemt sūtījumus, kas sūtīti uz visām ierīcēm Wi-Fi tīklā, izmantojot multiraides adreses, nevis tikai jūsu planšetdatoru. Tādējādi tiek patērēts vairāk enerģijas nekā režīmā, kas nav multiraide.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin">Ļauj lietotnei konfigurēt vietējo Bluetooth planšetdatoru, kā arī atklāt attālas ierīces un savienot tās pārī.</string>
+
+    <string name="permdesc_changeWimaxState">Ļauj lietotnei izveidot un pārtraukt planšetdatora savienojumu ar WiMAX tīkliem.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth">Ļauj lietotnei skatīt Bluetooth konfigurāciju planšetdatorā, kā arī veidot un pieņemt savienojumus ar pārī savienotām ierīcēm.</string>
+
+    <!-- Message shown on secondary screens to direct users to use their phone to finish biometric authorization [CHAR LIMIT=NONE] -->
+    <string name="biometric_dialog_secondary_display_toast">Lai turpinātu, planšetdatorā apstipriniet savu identitāti</string>
+
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin">Pārrauga nepareizi ievadīto paroļu skaitu, atbloķējot ekrānu, un bloķē planšetdatoru vai dzēš visus planšetdatora datus, ja tiek ievadīts pārāk daudz nepareizu paroļu.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Pārraudzīt nepareizi ievadīto ekrāna atbloķēšanas paroļu skaitu un bloķēt planšetdatoru vai dzēst visus šī lietotāja datus, ja tiek ievadīts pārāk daudz nepareizu paroļu.</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData">Dzēš planšetdatora datus bez brīdinājuma, veicot rūpnīcas datu atiestatīšanu.</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData_secondaryUser">Bez brīdinājuma dzēst šī lietotāja datus no planšetdatora.</string>
+
+    <!-- Shown in the lock screen when there is no SIM. -->
+    <string name="lockscreen_missing_sim_message">Planšetdatorā nav SIM kartes.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin">Atbloķēšanas kombinācija tika nepareizi uzzīmēta %1$d reizes. Pēc vēl %2$d neveiksmīgiem mēģinājumiem planšetdators būs jāatbloķē, izmantojot pierakstīšanos Google kontā.\n\nMēģiniet vēlreiz pēc %3$d sekundēm.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Jūs nepareizi veicāt planšetdatora atbloķēšanu %1$d reizes. Pēc vēl %2$d neveiksmīga(-iem) mēģinājuma(-iem) planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi, un lietotāja dati tiks zaudēti.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the
+        maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping">Jūs nepareizi veicāt planšetdatora atbloķēšanu %d reizes. Planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi.</string>
+
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility
+         service to put the device into explore by touch mode, displayed as a dialog message when
+         the user selects to enables the service. (default). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message">%1$s vēlas iespējot funkciju “Atklāt pieskaroties”. Kad ir ieslēgta funkcija “Atklāt pieskaroties”, var dzirdēt vai redzēt tā vienuma aprakstu, virs kura atrodas pirksts, vai veikt žestus, lai mijiedarbotos ar planšetdatoru.</string>
+
+    <!-- Name of the default audio route when nothing is connected to
+         a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name">Planšetdators</string>
+
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe">Jūs nepareizi veicāt planšetdatora atbloķēšanu %1$d reizes. Pēc vēl %2$d neveiksmīgiem mēģinājumiem planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi un lietotāja dati tiks zaudēti.</string>
+
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping">Jūs nepareizi veicāt planšetdatora atbloķēšanu %d reizes. Planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi.</string>
+
+    <!-- Message shown in dialog when user is almost at the limit where they will be
+    locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login">Jūs nepareizi norādījāt atbloķēšanas kombināciju %1$d reizes. Pēc vēl %2$d neveiksmīgiem mēģinājumiem planšetdators būs jāatbloķē, izmantojot e-pasta kontu.\n\nMēģiniet vēlreiz pēc %3$d sekundēm.</string>
+
+    <!-- Title of the dialog shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_title_for_settings_dialog">Planšetdatora iestatījumi nav pieejami</string>
+
+    <!-- Message shown when an app is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message">Šajā ierīcē (%1$s) pašlaik nevar piekļūt šai lietotnei. Mēģiniet tai piekļūt savā planšetdatorā.</string>
+
+    <!-- Message shown when a runtime permission request is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_permission_request">Šī lietotne pieprasa papildu atļaujas, taču atļaujas nevar piešķirt straumēšanas sesijā. Vispirms piešķiriet attiecīgo atļauju savā planšetdatorā.</string>
+
+    <!-- Message shown when an app being streamed to another device requests authentication such as via the biometrics API, and the user needs to complete the on their device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Šī lietotne pieprasa papildu drošību. Mēģiniet tai piekļūt savā planšetdatorā.</string>
+
+    <!-- Message shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_settings_dialog">Šajā ierīcē (%1$s) nevar piekļūt tālvadībai. Mēģiniet tai piekļūt savā planšetdatorā.</string>
+
+    <!-- Title of notification letting users know the battery level at the time the notification was posted [CHAR_LIMIT=80] -->
+    <string name="battery_saver_charged_notification_summary">Planšetdatora uzlādes līmenis ir pietiekams. Funkcijas vairs netiek ierobežotas.</string>
+
+    <!-- Strings for VirtualDeviceManager -->
+    <!-- Error message indicating the camera cannot be accessed when running on a virtual device. [CHAR LIMIT=NONE] -->
+    <string name="vdm_camera_access_denied">Nevar piekļūt planšetdatora kamerai no jūsu ierīces (%1$s).</string>
+</resources>

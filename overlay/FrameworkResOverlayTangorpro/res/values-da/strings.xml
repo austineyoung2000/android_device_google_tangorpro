@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. [CHAR LIMIT=TOAST] -->
+    <string name="low_memory">Din tablets lager er fuldt. Slet nogle filer for at frigøre plads.</string>
+
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog">Valgmuligheder for tabletcomputeren</string>
+
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will
+         be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm">Din tablet slukkes nu.</string>
+
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions">Valgmuligheder for tabletcomputeren</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms">Denne app kan læse alle sms-beskeder, der er gemt på din tablet.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity">Tillader, at appen gør dele af sig selv vedholdende i hukommelsen. Dette kan begrænse den tilgængelige hukommelse for andre apps, hvilket gør tabletten langsommere.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted">Tillader, at appen kan starte af sig selv, så snart systemet er færdig med at starte. Dette kan gøre tablettens opstartstid længere og give appen tilladelse til at gøre tabletten langsommere ved altid at lade appen køre.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky">Tillader, at appen kan sende klæbende udsendelser, der forbliver tilbage, når udsendelsen er slut. Overdreven brug kan gøre din tablet langsom eller ustabil ved at tvinge den til at bruge for meget hukommelse.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts">Tillader, at appen kan læse data om de kontakter, der er gemt på din tablet. Apps får også adgang til de konti på din tablet, som har oprettet kontakter. Dette kan omfatte konti, som er oprettet af apps, du har installeret. Med denne tilladelse kan apps gemme dine kontaktdata, og skadelige apps kan dele kontaktdata uden din viden.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts">Tillader, at appen kan ændre data om de kontakter, der er gemt på din tablet. Denne tilladelse giver apps mulighed for at slette kontaktdata.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog">Tillader, at appen ændrer din tablets opkaldshistorik, f.eks. data om indgående og udgående opkald. Ondsindede apps kan bruge dette til at slette eller ændre din opkaldshistorik.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCalendar">Denne app kan læse alle kalenderbegivenheder, der er gemt på din tablet, og dele eller gemme dine kalenderdata.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCalendar">Denne app kan tilføje, fjerne eller ændre kalenderbegivenheder på din tablet. Denne app kan sende meddelelser, der kan se ud, som om de kommer fra kalenderejere, eller ændre begivenheder uden at give ejeren besked.</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock">afholde tabletcomputeren fra at gå i dvale</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock">Tillader, at appen kan forhindre tabletten i at gå i dvale.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_transmitIr">Tillader, at appen bruger tablettens infrarøde sender.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone">Tillader, at appen kan ændre tidszonen på din tablet.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts">Tillader, at appen kan hente listen over konti, der er kendt af tabletten. Dette kan omfatte alle konti, der er oprettet af de apps, som du har installeret.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState">Tillader, at appen kan modtage pakker, der sendes til alle enheder på et Wi-Fi-netværk ved hjælp af multicastadresser, ikke kun din tablet. Den bruger mere strøm end tilstanden, der ikke anvender multicast.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin">Tillader, at appen kan konfigurere den lokale Bluetooth-tablet samt finde og parre med fjerne enheder.</string>
+
+    <string name="permdesc_changeWimaxState">Tillader, at appen kan oprette forbindelse fra tabletten og afbryde forbindelsen til tabletten på WiMAX-netværk.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth">Tillader, at appen kan læse konfigurationen af ​​Bluetooth på tabletten samt kan oprette og acceptere forbindelser med parrede enheder.</string>
+
+    <!-- Message shown on secondary screens to direct users to use their phone to finish biometric authorization [CHAR LIMIT=NONE] -->
+    <string name="biometric_dialog_secondary_display_toast">Verificer din identitet på din tablet for at fortsætte</string>
+
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin">Overvåg antallet af forkert indtastede adgangskoder, når du låser skærmen op, og lås din tablet, eller slet alle data i den, hvis der er indtastet for mange forkerte adgangskoder.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Registrer antallet af forkerte adgangskoder, der angives ved oplåsning af skærmen, og lås din tablet, eller slet alle brugerens data, hvis adgangskoden tastes forkert for mange gange.</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData">Slet din tablets data uden varsel ved at gendanne fabriksindstillingerne.</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData_secondaryUser">Slet denne brugers data på denne tablet uden varsel.</string>
+
+    <!-- Shown in the lock screen when there is no SIM. -->
+    <string name="lockscreen_missing_sim_message">Intet SIM-kort i tabletten.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin">Du har tegnet dit oplåsningsmønster forkert %1$d gange. Efter %2$d yderligere forsøg vil du blive bedt om at låse din tablet op ved hjælp af dit Google-login\n\n Prøv igen om %3$d sekunder.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Du har forsøgt at låse tabletten op forkert %1$d gange. Efter yderligere %2$d mislykkede forsøg nulstilles tabletten til fabriksindstillingerne, og alle brugerdata mistes.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the
+        maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping">Du har forsøgt at låse tabletten op forkert %d gange. Tabletten nulstilles til fabriksindstillingerne.</string>
+
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility
+         service to put the device into explore by touch mode, displayed as a dialog message when
+         the user selects to enables the service. (default). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message">%1$s ønsker at aktivere Udforsk ved berøring. Når Udforsk ved berøring er tændt, kan du høre eller se beskrivelser af, hvad der er under din finger eller udføre bevægelser for at interagere med tabletten.</string>
+
+    <!-- Name of the default audio route when nothing is connected to
+         a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name">Tablet</string>
+
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe">Du har forsøgt at låse tabletten op forkert %1$d gange. Efter %2$d yderligere mislykkede forsøg nulstilles tabletten til fabriksindstillingerne, og alle brugerdata mistes.</string>
+
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping">Du har forsøgt at låse tabletten op forkert %d gange. Tabletten nulstilles til fabriksindstillingerne.</string>
+
+    <!-- Message shown in dialog when user is almost at the limit where they will be
+    locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login">Du har tegnet dit oplåsningsmønster forkert %1$d gange. Efter %2$d yderligere mislykkede forsøg vil du blive bedt om at låse din tablet op ved hjælp af en mailkonto\n\n Prøv igen om %3$d sekunder.</string>
+
+    <!-- Title of the dialog shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_title_for_settings_dialog">Tabletindstillingerne er ikke tilgængelige</string>
+
+    <!-- Message shown when an app is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message">Dette er ikke tilgængeligt på din %1$s på nuværende tidspunkt. Prøv på din tablet i stedet.</string>
+
+    <!-- Message shown when a runtime permission request is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_permission_request">Denne app anmoder om yderligere tilladelser, men der kan ikke gives tilladelser under en streamingsession. Giv tilladelse på din tablet først.</string>
+
+    <!-- Message shown when an app being streamed to another device requests authentication such as via the biometrics API, and the user needs to complete the on their device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Denne app anmoder om yderligere sikkerhed. Prøv på din tablet i stedet.</string>
+
+    <!-- Message shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_settings_dialog">Du kan ikke gøre dette på din %1$s. Prøv på din tablet i stedet.</string>
+
+    <!-- Title of notification letting users know the battery level at the time the notification was posted [CHAR_LIMIT=80] -->
+    <string name="battery_saver_charged_notification_summary">Tabletten har tilstrækkeligt batteri. Funktionerne er ikke længere begrænsede.</string>
+
+    <!-- Strings for VirtualDeviceManager -->
+    <!-- Error message indicating the camera cannot be accessed when running on a virtual device. [CHAR LIMIT=NONE] -->
+    <string name="vdm_camera_access_denied">Kameraet på din tablet kan ikke tilgås via din %1$s</string>
+</resources>

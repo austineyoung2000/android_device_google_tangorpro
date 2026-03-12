@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Whether or not the dock settings are to be displayed for this device when docked -->
+    <bool name="has_dock_settings">true</bool>
+
+    <!-- Whether the dream setup activity should be enabled as part of setupwizard -->
+    <bool name="dream_setup_supported">true</bool>
+
+    <!-- Whether to show communal settings at the top level. -->
+    <bool name="config_show_communal_settings">true</bool>
+
+    <!-- Whether to show the "glanceable hub" settings. -->
+    <bool name="config_show_glanceable_hub_toggle_setting">true</bool>
+
+    <!-- Whether to show a "restrict to wireless charging" settings option in screensaver and hub
+         mode settings (false by default). -->
+    <bool name="config_show_restrict_to_wireless_charging">false</bool>
+</resources>

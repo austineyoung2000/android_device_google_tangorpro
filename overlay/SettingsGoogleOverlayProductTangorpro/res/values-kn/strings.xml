@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Message shown in SFPS enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_sfps_enroll_start_message">ಸೆನ್ಸರ್ ಅನ್ನು ಒತ್ತದೆ ಸ್ಪರ್ಶಿಸಿ. ಪ್ರತಿ ಬಾರಿ ಸ್ಪರ್ಶಿಸಿದ ನಂತರ ನಿಮ್ಮ ಬೆರಳನ್ನು ಮೇಲಕ್ಕೆತ್ತಿ.\n\nಪ್ರತಿ ಬಾರಿ ನಿಮ್ಮ ಬೆರಳನ್ನು ಸ್ವಲ್ಪ ಸರಿಸಿ. ಇದು ನಿಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಕುರಿತು ಇನ್ನಷ್ಟು ಮಾಹಿತಿಯನ್ನು ಕ್ಯಾಪ್ಚರ್ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.</string>
+
+    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_v2_delete_message">ಇದು ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ನಲ್ಲಿ ಸಂಗ್ರಹವಾಗಿರುವ, \'%1$s\' ಗೆ ಸಂಬಂಧಿಸಿದ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಮಾಡೆಲ್‌ ಅನ್ನು ಅಳಿಸುತ್ತದೆ</string>
+</resources>

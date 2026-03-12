@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Message shown in SFPS enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_sfps_enroll_start_message">Հպեք սկաներին առանց սեղմելու։ Բարձրացրեք մատը յուրաքանչյուր հպումից հետո։\n\nԱմեն անգամ թեթևակի շարժեք ձեր մատը։ Այդպես սկաներն ավելի մեծ մակերեսով կնկարի ձեր մատնահետքը։</string>
+
+    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_v2_delete_message">Մատնահետքի նմուշը, որը կապված է «%1$s»-ի հետ և պահվում է ձեր պլանշետում, կջնջվի։</string>
+</resources>

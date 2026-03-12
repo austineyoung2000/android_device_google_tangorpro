@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Message shown in SFPS enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_sfps_enroll_start_message">ଏହାକୁ ନଦବାଇ ସେନ୍ସରକୁ ସ୍ପର୍ଶ କରନ୍ତୁ। ପ୍ରତ୍ୟେକ ଥର ସ୍ପର୍ଶ କରିବା ପରେ ଆପଣଙ୍କ ଆଙ୍ଗୁଠି ଉଠାନ୍ତୁ।\n\nପ୍ରତ୍ୟେକ ଥର ଆପଣଙ୍କ ଆଙ୍ଗୁଠିକୁ ସାମାନ୍ୟ ମୁଭ କରନ୍ତୁ। ଏହା ଆପଣଙ୍କ ଟିପଚିହ୍ନର ଅଧିକାଂଶ କେପଚର କରିବାରେ ସାହାଯ୍ୟ କରେ।</string>
+
+    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_v2_delete_message">ଏହା ଆପଣଙ୍କ ଟାବଲେଟରେ ଷ୍ଟୋର କରାଯାଇଥିବା \'%1$s\' ସହ ସମ୍ବନ୍ଧିତ ଟିପଚିହ୍ନ ମଡେଲକୁ ଡିଲିଟ କରେ</string>
+</resources>

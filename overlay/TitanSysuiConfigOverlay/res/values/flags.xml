@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!--  Whether the user switcher chip shows in the status bar. When true, the multi user
+      avatar will no longer show on the lockscreen -->
+    <bool name="flag_user_switcher_chip">true</bool>
+</resources>

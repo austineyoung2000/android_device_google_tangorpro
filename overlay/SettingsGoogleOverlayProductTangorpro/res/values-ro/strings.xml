@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Message shown in SFPS enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_sfps_enroll_start_message">Atinge senzorul fără a-l apăsa. Ridică degetul după fiecare atingere.\n\nMută ușor degetul de fiecare dată. Astfel vei putea captura o parte mai mare din amprentă.</string>
+
+    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_v2_delete_message">Astfel, se șterge modelul de amprentă asociat cu %1$s și stocat pe tabletă</string>
+</resources>

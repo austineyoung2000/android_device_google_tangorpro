@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Dimensions for Dream settings cards -->
+    <dimen name="dream_item_min_column_width">210dp</dimen>
+    <dimen name="dream_preference_card_padding">20dp</dimen>
+</resources>

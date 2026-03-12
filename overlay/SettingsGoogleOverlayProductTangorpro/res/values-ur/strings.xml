@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Message shown in SFPS enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_sfps_enroll_start_message">سینسر کو دبائے بغیر اسے ٹچ کریں۔ ہر ٹچ کے بعد اپنی انگلی اٹھائیں۔\n\nہر بار اپنی انگلی کو تھوڑا منتقل کریں۔ اس سے آپ کے فنگر پرنٹ کے مزید حصوں کو کیپچر کرنے میں مدد ملے گی۔</string>
+
+    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_v2_delete_message">اس سے \'%1$s\' سے وابستہ فنگر پرنٹ ماڈل حذف ہو جاتا ہے جو آپ کے ٹیبلیٹ پر اسٹور کردہ ہے</string>
+</resources>

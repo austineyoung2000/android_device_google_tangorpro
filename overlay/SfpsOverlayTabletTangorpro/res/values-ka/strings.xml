@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">ანაბეჭდით განბლოკვის გამოყენებისას თქვენი თითის ანაბეჭდის მოდელი სურათების მეშვეობით განახლდება. თითის ანაბეჭდის მოდელის შესაქმნელად გამოყენებული სურათები არასდროს შეინახება, თითის ანაბეჭდის მოდელი კი უსაფრთხოდ შეინახება თქვენს ტაბლეტში და არასდროს დატოვებს მას. ყველაფერი მუშავდება უსაფრთხოდ, თქვენს ტაბლეტში.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">ანაბეჭდით განბლოკვის გამოყენებისას მისი თითის ანაბეჭდის მოდელი სურათების მეშვეობით განახლდება. თქვენი ბავშვის თითის ანაბეჭდის მოდელის შესაქმნელად გამოყენებული სურათები არასდროს შეინახება, მაგრამ თითის ანაბეჭდის მოდელი უსაფრთხოდ შეინახება ტაბლეტში და არასდროს დატოვებს მას. ყველაფერი მუშავდება უსაფრთხოდ, ტაბლეტში.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">თითის ანაბეჭდის წაშლა ან თითის ანაბეჭდით განბლოკვის გამორთვა ნებისმიერ დროს შეგიძლიათ პარამეტრებიდან. თითის ანაბეჭდის მოდელები ტაბლეტში შეინახება, სანამ მათ არ წაშლით.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">თქვენ ან თქვენს ბავშვს თითის ანაბეჭდის მოდელის წაშლა ან ანაბეჭდით განბლოკვის გამორთვა ნებისმიერ დროს შეგიძლიათ პარამეტრებიდან. ანაბეჭდის მოდელები მათ წაშლამდე შეინახება ტაბლეტში.</string>
+</resources>

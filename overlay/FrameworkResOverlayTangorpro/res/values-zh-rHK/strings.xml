@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. [CHAR LIMIT=TOAST] -->
+    <string name="low_memory">平板電腦的儲存空間已滿。請刪除一些檔案，以騰出可用空間。</string>
+
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog">平板電腦選項</string>
+
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will
+         be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm">你的平板電腦將會關機。</string>
+
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions">平板電腦選項</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms">此應用程式可以讀取所有儲存在你的平板電腦中的短訊。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity">允許應用程式設定本身的某些部分持續佔用記憶體。這樣可能會限制其他應用程式可用的記憶體，並拖慢平板電腦的運作速度。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted">允許應用程式在系統完成開機程序時立即自行啟動。這會加長平板電腦的開機時間，而且會因為系統一直執行該應用程式而拖慢平板電腦的整體運作速度。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky">允許應用程式傳送在廣播結束後仍繼續存在的記憶廣播。過度使用可能會促使平板電腦過度使用記憶體，因而拖慢速度或造成不穩定。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts">允許應用程式讀取儲存在平板電腦上的聯絡人資料。應用程式亦可存取平板電腦上已建立聯絡人的帳戶，其中可能包括已安裝應用程式所建立的帳戶。這項權限允許應用程式儲存你的聯絡人資料，而惡意應用程式也可能在你不知情時擅自共用聯絡資料。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts">允許應用程式修改儲存在平板電腦上的聯絡人資料。這項權限允許應用程式刪除聯絡人資料。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog">允許應用程式修改平板電腦的通話記錄，包括來電和已撥電話相關資料。惡意應用程式可能會藉此刪除或修改你的通話記錄。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCalendar">此應用程式可以讀取所有儲存在你的平板電腦的日曆活動，並分享或儲存你的日曆資料。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCalendar">此應用程式可以加入、移除或變更你的平板電腦中的日曆活動。此應用程式可以傳送看似來自日曆擁有者的訊息，或變更活動而不通知其擁有者。</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock">防止平板電腦進入休眠狀態</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock">允許應用程式防止平板電腦進入休眠狀態。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_transmitIr">允許應用程式使用平板電腦的紅外線傳送器。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone">允許應用程式更改平板電腦的時區。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts">允許應用程式取得平板電腦已知的帳戶清單，其中可能包括你安裝的應用程式所建立的任何帳戶。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState">允許應用程式接收透過多點傳播位址傳送給 Wi-Fi 網絡上所有裝置 (而不只是傳送給你的平板電腦) 的封包。這樣會比非多點傳播模式耗用更多電力。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin">允許應用程式設定本機藍牙平板電腦，以及與偵測到的遠端裝置配對。</string>
+
+    <string name="permdesc_changeWimaxState">允許應用程式建立或中斷平板電腦與 WiMAX 網絡的連線。</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth">允許應用程式查看平板電腦的藍牙設定，以及建立和接受與其他配對裝置的連線。</string>
+
+    <!-- Message shown on secondary screens to direct users to use their phone to finish biometric authorization [CHAR LIMIT=NONE] -->
+    <string name="biometric_dialog_secondary_display_toast">在平板電腦上驗證你的身分以繼續</string>
+
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin">監視為螢幕解鎖時輸入錯誤密碼的次數；如果輸入錯誤密碼的次數過多，則會鎖定平板電腦或清除平板電腦的所有資料。</string>
+    <string name="policydesc_watchLogin_secondaryUser">監察螢幕解鎖時錯誤輸入密碼的次數，如果錯誤輸入密碼的次數過多，即鎖定平板電腦或清除這個使用者的資料。</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData">重設平板電腦為原廠設定，在不提出警告的情況下直接清除平板電腦的資料。</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData_secondaryUser">清除這個使用者在這部平板電腦上的資料而不作警告。</string>
+
+    <!-- Shown in the lock screen when there is no SIM. -->
+    <string name="lockscreen_missing_sim_message">平板電腦中沒有 SIM 卡。</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin">你已畫錯解鎖圖案 %1$d 次，如果再嘗試 %2$d 次仍未成功，系統會要求你使用你的 Google 登入資料解開上鎖的平板電腦。\n\n請在 %3$d 秒後再試一次。</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe">你嘗試解除這部平板電腦的鎖定已失敗 %1$d 次，剩餘 %2$d 次嘗試機會。如果失敗次數超過嘗試次數限制，平板電腦將恢復原廠設定，所有使用者資料均會遺失。</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the
+        maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping">你嘗試解除這部平板電腦的鎖定已失敗 %d 次。平板電腦現在會重設為原廠預設值。</string>
+
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility
+         service to put the device into explore by touch mode, displayed as a dialog message when
+         the user selects to enables the service. (default). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message">%1$s 需要啟用「輕觸探索」。開啟這項功能時，系統會在你的手指輕觸螢幕上的物件時顯示或朗讀說明，你也可以執行手勢來與平板電腦互動。</string>
+
+    <!-- Name of the default audio route when nothing is connected to
+         a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name">平板電腦</string>
+
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe">你嘗試了 %1$d 次仍未能成功解開這部上鎖的平板電腦。如果再嘗試 %2$d 次仍未成功，平板電腦將回復原廠設定，所有使用者資料均會失去。</string>
+
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping">你嘗試了 %d 次仍未能成功解開這部上鎖的平板電腦。平板電腦現在將回復原廠設定。</string>
+
+    <!-- Message shown in dialog when user is almost at the limit where they will be
+    locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login">你已畫錯解鎖圖案 %1$d 次，如果再嘗試 %2$d 次仍未成功，系統會要求你透過電郵帳戶解開上鎖的平板電腦。\n\n請在 %3$d 秒後再試一次。</string>
+
+    <!-- Title of the dialog shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_title_for_settings_dialog">無法使用平板電腦設定</string>
+
+    <!-- Message shown when an app is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message">目前無法在 %1$s 上存取此應用程式，請改用平板電腦存取。</string>
+
+    <!-- Message shown when a runtime permission request is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_permission_request">此應用程式要求額外的權限，但串流工作階段期間無法授予權限。請先在平板電腦上授予權限。</string>
+
+    <!-- Message shown when an app being streamed to another device requests authentication such as via the biometrics API, and the user needs to complete the on their device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">此應用程式要求額外的安全措施，請改用平板電腦。</string>
+
+    <!-- Message shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_settings_dialog">無法在 %1$s 上存取此應用程式，請改用平板電腦。</string>
+
+    <!-- Title of notification letting users know the battery level at the time the notification was posted [CHAR_LIMIT=80] -->
+    <string name="battery_saver_charged_notification_summary">平板電腦電量充足。各項功能已不再受限。</string>
+
+    <!-- Strings for VirtualDeviceManager -->
+    <!-- Error message indicating the camera cannot be accessed when running on a virtual device. [CHAR LIMIT=NONE] -->
+    <string name="vdm_camera_access_denied">無法從 %1$s 存取平板電腦的相機</string>
+</resources>

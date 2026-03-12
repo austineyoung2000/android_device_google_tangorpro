@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. [CHAR LIMIT=TOAST] -->
+    <string name="low_memory">Se ha agotado el espacio de almacenamiento del tablet. Elimina algunos archivos para liberar espacio.</string>
+
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog">Opciones de la tablet</string>
+
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will
+         be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm">El tablet se apagará.</string>
+
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions">Opciones de la tablet</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms">Esta aplicación puede leer todos los SMS (mensajes de texto) almacenados en tu tablet.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity">Permite que la aplicación haga que algunas de sus partes se mantengan en la memoria. Esto puede limitar la cantidad de memoria disponible para otras aplicaciones y ralentizar el tablet.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted">Permite que la aplicación se ejecute automáticamente una vez que el sistema se ha iniciado completamente. Esto puede hacer que el tablet tarde más en iniciarse y permite que la aplicación ralentice el funcionamiento global del dispositivo.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky">Permite que la aplicación envíe emisiones que permanecen en el dispositivo una vez que la emisión ha finalizado. Un uso excesivo podría ralentizar el tablet o volverlo inestable al hacer que use demasiada memoria.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts">Permite que la aplicación lea datos de los contactos almacenados en tu tablet. Las aplicaciones también podrán acceder a las cuentas de tu tablet que hayan creado contactos, y quizá tengan acceso a las cuentas creadas por aplicaciones que hayas descargado. Las aplicaciones con este permiso pueden guardar los datos de tus contactos, y las aplicaciones maliciosas puede que compartan estos datos sin que lo sepas.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts">Permite que la aplicación cambie los datos de los contactos almacenados en tu tablet. Las aplicaciones con este permiso pueden eliminar datos de contactos.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog">Permite que la aplicación modifique el registro de llamadas del tablet, incluidos datos sobre llamadas entrantes y salientes. Las aplicaciones malintencionadas pueden usar este permiso para borrar o modificar el registro de llamadas.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCalendar">Esta aplicación puede leer los eventos de calendario almacenados en tu tablet y compartir o guardar los datos de tu calendario.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCalendar">Esta aplicación puede añadir, quitar o cambiar eventos de calendario almacenados en tu tablet. También puede enviar mensajes que parecen provenir del propietario del calendario o cambiar eventos sin notificárselo a su propietario.</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock">impedir que la tablet entre en modo de suspensión</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock">Permite que la aplicación impida que el tablet entre en modo de suspensión.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_transmitIr">Permite que la aplicación use el transmisor de infrarrojos de la tablet.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone">Permite que la aplicación cambie la zona horaria del tablet.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts">Permite que la aplicación obtenga una lista de cuentas reconocidas por el tablet, entre las que se pueden incluir las cuentas creadas por las aplicaciones que hayas instalado.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState">Permite que la aplicación reciba paquetes enviados a todos los dispositivos de una red Wi-Fi que usen direcciones de multicast, no solo a la tablet. Usa más batería que el modo de no multicast.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin">Permite que la aplicación configure el tablet Bluetooth local y que detecte dispositivos remotos y se empareje con ellos.</string>
+
+    <string name="permdesc_changeWimaxState">Permite que la aplicación conecte el tablet a redes WiMAX y lo desconecte de ellas.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth">Permite que la aplicación acceda a la configuración de Bluetooth de la tablet y que establezca y acepte conexiones con los dispositivos sincronizados.</string>
+
+    <!-- Message shown on secondary screens to direct users to use their phone to finish biometric authorization [CHAR LIMIT=NONE] -->
+    <string name="biometric_dialog_secondary_display_toast">Verifica que eres tú en tu tablet para continuar</string>
+
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin">Controla el número de contraseñas incorrectas introducidas al desbloquear la pantalla y bloquea la tablet o elimina todos sus datos si se introducen demasiadas contraseñas incorrectas.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Controla el número de contraseñas incorrectas introducidas para desbloquear la pantalla y bloquea el tablet o borra todos los datos del usuario si se introducen demasiadas contraseñas incorrectas.</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData">Borra los datos de la tablet sin avisar restableciendo el estado de fábrica</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData_secondaryUser">Borra los datos del usuario en esta tablet sin avisar.</string>
+
+    <!-- Shown in the lock screen when there is no SIM. -->
+    <string name="lockscreen_missing_sim_message">No hay ninguna SIM en la tablet.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin">Has fallado %1$d veces al dibujar el patrón de desbloqueo. Si fallas otras %2$d veces, deberás usar tus credenciales de acceso de Google para desbloquear el tablet.\n\n Inténtalo de nuevo dentro de %3$d segundos.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Has intentado desbloquear el tablet %1$d veces, pero no lo has conseguido. Si fallas %2$d veces más, se restablecerá el estado de fábrica y se perderán todos los datos del usuario.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the
+        maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping">Has intentado desbloquear el tablet %d veces, pero no lo has conseguido. Se restablecerá el estado de fábrica del dispositivo.</string>
+
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility
+         service to put the device into explore by touch mode, displayed as a dialog message when
+         the user selects to enables the service. (default). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message">%1$s quiere habilitar la exploración táctil. Cuando esta función esté activada, podrás escuchar o ver descripciones del contenido seleccionado o usar gestos para interactuar con el tablet.</string>
+
+    <!-- Name of the default audio route when nothing is connected to
+         a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name">Tablet</string>
+
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe">Has intentado desbloquear el tablet %1$d veces, pero no lo has conseguido. Si fallas otras %2$d veces, se restablecerá el estado de fábrica y se perderán todos los datos del usuario.</string>
+
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping">Has intentado desbloquear el tablet %d veces, pero no lo has conseguido. Se restablecerá el estado de fábrica del dispositivo.</string>
+
+    <!-- Message shown in dialog when user is almost at the limit where they will be
+    locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login">Has fallado %1$d veces al dibujar el patrón de desbloqueo. Si fallas otras %2$d veces, deberás usar una cuenta de correo electrónico para desbloquear el tablet.\n\n Inténtalo de nuevo en %3$d segundos.</string>
+
+    <!-- Title of the dialog shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_title_for_settings_dialog">Ajustes del tablet no disponibles</string>
+
+    <!-- Message shown when an app is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message">En estos momentos, no se puede acceder a este contenido en tu %1$s. Prueba en tu tablet.</string>
+
+    <!-- Message shown when a runtime permission request is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_permission_request">Esta aplicación está solicitando permisos adicionales, pero no se pueden dar durante una sesión de streaming. Da primero el permiso en tu tablet.</string>
+
+    <!-- Message shown when an app being streamed to another device requests authentication such as via the biometrics API, and the user needs to complete the on their device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Esta aplicación solicita seguridad adicional. Prueba en tu tablet.</string>
+
+    <!-- Message shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_settings_dialog">No se puede acceder a este contenido en tu %1$s. Prueba en tu tablet.</string>
+
+    <!-- Title of notification letting users know the battery level at the time the notification was posted [CHAR_LIMIT=80] -->
+    <string name="battery_saver_charged_notification_summary">El tablet tiene suficiente batería. Las funciones ya no están restringidas.</string>
+
+    <!-- Strings for VirtualDeviceManager -->
+    <!-- Error message indicating the camera cannot be accessed when running on a virtual device. [CHAR LIMIT=NONE] -->
+    <string name="vdm_camera_access_denied">No se puede acceder a la cámara del tablet desde tu %1$s</string>
+</resources>

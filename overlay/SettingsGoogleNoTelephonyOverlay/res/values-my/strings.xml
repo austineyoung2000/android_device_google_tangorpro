@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Tethering controls, item title to go into the tethering settings when USB, Bluetooth and Wifi tethering are available [CHAR LIMIT=25]-->
+    <string name="tether_settings_title_all">မိုဘိုင်းသုံး၍ ချိတ်ဆက်ခြင်း</string>
+
+    <!-- Tethering footer info [CHAR LIMIT=NONE]-->
+    <string name="tethering_footer_info">USB၊ အီသာနက် (သို့) ဘလူးတုသ်မှတစ်ဆင့် အခြားစက်များကို အင်တာနက်ပေးရန် မိုဘိုင်းသုံး၍ ချိတ်ဆက်နိုင်သည်။</string>
+
+    <!-- Summary for Network and Internet settings, explaining it contains wifi and data usage setting [CHAR LIMIT=NONE]-->
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+
+    <!-- Label for non-carrier data usage in data usage screen [CHAR LIMIT=60] -->
+    <string name="non_carrier_data_usage">Wi-Fi ဒေတာသုံးစွဲမှု</string>
+</resources>

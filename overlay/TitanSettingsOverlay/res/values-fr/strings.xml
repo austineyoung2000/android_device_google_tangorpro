@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Display settings screen, summary fragment for screen saver options, actived while docked and charging [CHAR LIMIT=40] -->
+    <string name="screensaver_settings_summary_dock_and_charging">Lorsque l\'appareil est en charge sur une station d\'accueil</string>
+
+    <!-- Display settings screen, summary fragment for screen saver options, activated when asleep and charging [CHAR LIMIT=40] -->
+    <string name="screensaver_settings_summary_sleep">Lorsque l\'appareil est en charge</string>
+
+    <!-- Summary for when screensaver is enabled, only while stationary and upright and charging [CHAR LIMIT=40] -->
+    <string name="screensaver_settings_summary_postured_and_charging">Lorsque l\'appareil est en position verticale et en charge</string>
+
+    <!-- Display settings screen, summary for screen saver options, screen saver is turned off [CHAR LIMIT=20] -->
+    <string name="screensaver_settings_summary_off">Afficher vos photos, œuvres, horloges préférées et plus en cas d\'inactivité</string>
+
+    <!-- Communal Settings -->
+    <!-- Title of the communal settings under Settings > Communal [CHAR LIMIT=30] -->
+    <string name="communal_settings_title">Mode Hub</string>
+
+    <!-- Summary for when to automatically show hub mode (widgets on lockscreen): never  [CHAR LIMIT=100] -->
+    <string name="when_to_show_hubmode_never">Jamais</string>
+
+    <!-- Summary for when to automatically show hub mode (widgets on lockscreen): charging  [CHAR LIMIT=100] -->
+    <string name="when_to_show_hubmode_charging">Lorsque l\'appareil est en charge</string>
+
+    <!-- Summary for when to automatically show hub mode (widgets on lockscreen): docked and charging [CHAR LIMIT=100] -->
+    <string name="when_to_show_hubmode_docked">Lorsque l\'appareil est en charge sur une station d\'accueil</string>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. [CHAR LIMIT=TOAST] -->
+    <string name="low_memory">Stocarea pe tabletă este plină. Șterge câteva fișiere pentru a elibera spațiu.</string>
+
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog">Opțiuni tablet PC</string>
+
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will
+         be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm">Tableta se va închide.</string>
+
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions">Opțiuni tablet PC</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms">Această aplicație poate citi toate mesajele SMS stocate pe tabletă.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity">Permite aplicației să declare persistente în memorie anumite părți ale sale. Acest lucru poate limita memoria disponibilă pentru alte aplicații și poate încetini funcționarea tabletei.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted">Permite aplicației să pornească imediat ce s-a terminat încărcarea sistemului. Din acest motiv, pornirea tabletei poate dura mai mult timp, iar rularea continuă a aplicației poate încetini dispozitivul.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky">Permite aplicației să trimită mesaje difuzate persistente, care se păstrează după terminarea difuzării mesajului. Utilizarea excesivă a acestei funcții poate să încetinească sau să destabilizeze tableta, determinând-o să utilizeze prea multă memorie.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts">Permite aplicației să citească datele despre persoanele din agenda stocată pe tabletă. Aplicațiile vor avea și acces la conturile de pe tabletă care au creat agenda. Aici pot fi incluse conturile create de aplicațiile pe care le-ai instalat. Cu această permisiune, aplicațiile pot salva datele de contact, iar aplicațiile rău intenționate pot permite accesul la datele de contact fără cunoștința ta.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts">Permite aplicației să modifice datele despre persoanele din agenda stocată pe tabletă. Cu această permisiune, aplicația poate șterge datele de contact.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog">Permite aplicației să modifice jurnalul de apeluri al tabletei, inclusiv datele despre apelurile primite sau făcute. Aplicațiile rău intenționate pot folosi această permisiune pentru a șterge sau a modifica jurnalul de apeluri.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCalendar">Această aplicație poate să citească toate evenimentele din calendar stocate pe tabletă și să trimită sau să salveze datele din calendar.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCalendar">Această aplicație poate să adauge, să elimine sau să modifice evenimente din calendarul de pe tabletă. Această aplicație poate să trimită mesaje care par trimise de proprietarii calendarului sau să modifice evenimentele fără notificarea acestora.</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock">împiedicarea computerului tablet PC să intre în repaus</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock">Permite aplicației să împiedice intrarea tabletei în stare de repaus.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_transmitIr">Permite aplicației să utilizeze transmițătorul prin infraroșii al tabletei.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone">Permite aplicației să schimbe fusul orar al tabletei.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts">Permite aplicației să obțină lista de conturi cunoscute de tabletă. Aceasta poate include conturile create de aplicațiile pe care le-ai instalat.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState">Permite aplicației să primească pachetele trimise către toate dispozitivele dintr-o rețea Wi-Fi, folosind adrese cu difuzare multiplă, nu doar tableta ta. Această funcție folosește mai multă energie decât modul fără difuzare multiplă.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin">Permite aplicației să configureze tableta Bluetooth locală, să descopere și să se asocieze cu dispozitive la distanță.</string>
+
+    <string name="permdesc_changeWimaxState">Permite aplicației să conecteze și să deconecteze tableta la și de la rețelele WiMAX.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth">Permite aplicației să vadă configurația tabletei Bluetooth, să facă și să accepte conexiuni cu dispozitive asociate.</string>
+
+    <!-- Message shown on secondary screens to direct users to use their phone to finish biometric authorization [CHAR LIMIT=NONE] -->
+    <string name="biometric_dialog_secondary_display_toast">Confirmă-ți identitatea pe tabletă pentru a continua</string>
+
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin">Monitorizează numărul de parole incorecte introduse la deblocarea ecranului și blochează tableta sau șterge datele acesteia dacă sunt introduse prea multe parole incorecte.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Monitorizează numărul de parole incorecte introduse la deblocarea ecranului și blochează tableta sau șterge toate datele acestui utilizator dacă se introduc prea multe parole incorecte.</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData">Șterge datele de pe tabletă fără avertisment, efectuând resetarea configurării din fabrică.</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData_secondaryUser">Șterge datele acestui utilizator de pe această tabletă fără avertisment.</string>
+
+    <!-- Shown in the lock screen when there is no SIM. -->
+    <string name="lockscreen_missing_sim_message">Nu există card SIM în tabletă.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin">Ai desenat incorect modelul pentru deblocare de %1$d ori. După încă %2$d încercări nereușite, ți se va solicita să deblochezi tableta cu ajutorul datelor de conectare la Google.\n\n Încearcă din nou peste %3$d secunde.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Ai făcut %1$d încercări incorecte de deblocare a tabletei. După încă %2$d încercări nereușite, aceasta va reveni la setările din fabrică, iar toate datele de utilizator se vor pierde.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the
+        maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping">Ai făcut %d încercări incorecte de deblocare a tabletei. Tableta va reveni acum la setările din fabrică.</string>
+
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility
+         service to put the device into explore by touch mode, displayed as a dialog message when
+         the user selects to enables the service. (default). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message">%1$s vrea să activeze funcția Explorează prin atingere. Când e activată, poți auzi sau vedea descrieri pentru ceea ce se află sub degetul tău sau poți face gesturi pentru a interacționa cu tableta.</string>
+
+    <!-- Name of the default audio route when nothing is connected to
+         a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name">Tabletă</string>
+
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe">Ai făcut %1$d încercări incorecte de deblocare a tabletei. După încă %2$d încercări nereușite, aceasta va reveni la setările din fabrică, iar toate datele de utilizator se vor pierde.</string>
+
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping">Ai făcut %d încercări incorecte de deblocare a tabletei. Tableta va reveni acum la setările din fabrică.</string>
+
+    <!-- Message shown in dialog when user is almost at the limit where they will be
+    locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login">Ai desenat incorect modelul pentru deblocare de %1$d ori. După încă %2$d încercări nereușite, ți se va solicita să deblochezi tableta cu ajutorul unui cont de e-mail.\n\n Încearcă din nou peste %3$d secunde.</string>
+
+    <!-- Title of the dialog shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_title_for_settings_dialog">Setările pentru tabletă sunt indisponibile</string>
+
+    <!-- Message shown when an app is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message">Aplicația nu poate fi accesată pe %1$s momentan. Încearcă pe tabletă.</string>
+
+    <!-- Message shown when a runtime permission request is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_permission_request">Aplicația solicită permisiuni suplimentare, dar acestea nu pot fi acordate într-o sesiune de streaming. Acordă permisiunea întâi pe tabletă.</string>
+
+    <!-- Message shown when an app being streamed to another device requests authentication such as via the biometrics API, and the user needs to complete the on their device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Aplicația necesită securitate suplimentară. Încearcă pe tabletă.</string>
+
+    <!-- Message shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_settings_dialog">Nu se poate accesa pe %1$s. Încearcă pe tabletă.</string>
+
+    <!-- Title of notification letting users know the battery level at the time the notification was posted [CHAR_LIMIT=80] -->
+    <string name="battery_saver_charged_notification_summary">Tableta este încărcată suficient. Funcțiile nu mai sunt limitate.</string>
+
+    <!-- Strings for VirtualDeviceManager -->
+    <!-- Error message indicating the camera cannot be accessed when running on a virtual device. [CHAR LIMIT=NONE] -->
+    <string name="vdm_camera_access_denied">Nu se poate accesa camera foto a tabletei de pe %1$s</string>
+</resources>

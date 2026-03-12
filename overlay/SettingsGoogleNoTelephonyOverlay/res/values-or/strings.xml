@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Tethering controls, item title to go into the tethering settings when USB, Bluetooth and Wifi tethering are available [CHAR LIMIT=25]-->
+    <string name="tether_settings_title_all">ଟିଥରିଂ</string>
+
+    <!-- Tethering footer info [CHAR LIMIT=NONE]-->
+    <string name="tethering_footer_info">USB, ଇଥରନେଟ କିମ୍ବା ବ୍ଲୁଟୁଥ ମାଧ୍ୟମରେ ଅନ୍ୟ ଡିଭାଇସଗୁଡ଼ିକୁ ଇଣ୍ଟରନେଟ ପ୍ରଦାନ କରିବାକୁ ଟିଥରିଂ ବ୍ୟବହାର କରନ୍ତୁ।</string>
+
+    <!-- Summary for Network and Internet settings, explaining it contains wifi and data usage setting [CHAR LIMIT=NONE]-->
+    <string name="network_dashboard_summary_no_mobile">ୱାଇ-ଫାଇ</string>
+
+    <!-- Label for non-carrier data usage in data usage screen [CHAR LIMIT=60] -->
+    <string name="non_carrier_data_usage">ୱାଇ-ଫାଇ ଡାଟା ବ୍ୟବହାର</string>
+</resources>

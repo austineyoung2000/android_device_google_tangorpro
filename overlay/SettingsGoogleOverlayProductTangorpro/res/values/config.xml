@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Whether to show emergency settings in top-level Settings -->
+    <bool name="config_show_emergency_settings">false</bool>
+
+    <!-- App aspect ratio settings screen, user aspect ratio override options. Must be the same
+         length and order as config_userAspectRatioOverrideValues below.
+
+         If changed, also update the Backup & Restore logic for choosing the closest value in
+         com/android/settings/applications/appcompat/UserAspectRatioBackupManager.java -->
+    <string-array name="config_userAspectRatioOverrideEntries">
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </string-array>
+
+    <!-- App aspect ratio settings screen, user aspect ratio override options. Must be the same
+         length and order as config_userAspectRatioOverrideEntries above. The values must
+         correspond to PackageManager.UserMinAspectRatio.
+
+         If changed, also update the Backup & Restore logic for choosing the closest value in
+         com/android/settings/applications/appcompat/UserAspectRatioBackupManager.java -->
+    <integer-array name="config_userAspectRatioOverrideValues">
+        <item>0</item>
+        <item>6</item>
+        <item>1</item>
+        <item>4</item>
+    </integer-array>
+</resources>

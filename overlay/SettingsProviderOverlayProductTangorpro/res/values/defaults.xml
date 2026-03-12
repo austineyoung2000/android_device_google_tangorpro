@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Comma-separated list of bluetooth, wifi, and cell. -->
+    <bool name="def_auto_time_zone">false</bool>
+    <bool name="def_accelerometer_rotation">true</bool>
+
+    <!-- Default for Settings.Secure.LOCK_SCREEN_ALLOW_PRIVATE_NOTIFICATIONS -->
+    <bool name="def_lock_screen_allow_private_notifications">false</bool>
+
+    <!-- Default for Settings.Secure.LOCK_SCREEN_SHOW_ONLY_UNSEEN_NOTIFICATIONS -->
+    <bool name="def_lock_screen_show_only_unseen_notifications">true</bool>
+</resources>

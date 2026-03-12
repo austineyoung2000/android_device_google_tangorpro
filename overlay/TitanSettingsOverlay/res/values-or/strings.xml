@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Display settings screen, summary fragment for screen saver options, actived while docked and charging [CHAR LIMIT=40] -->
+    <string name="screensaver_settings_summary_dock_and_charging">ଡକ ଏବଂ ଚାର୍ଜିଂ ହେଉଥିବା ସମୟରେ</string>
+
+    <!-- Display settings screen, summary fragment for screen saver options, activated when asleep and charging [CHAR LIMIT=40] -->
+    <string name="screensaver_settings_summary_sleep">ଚାର୍ଜିଂ ସମୟରେ</string>
+
+    <!-- Summary for when screensaver is enabled, only while stationary and upright and charging [CHAR LIMIT=40] -->
+    <string name="screensaver_settings_summary_postured_and_charging">ଅପରାଇଟ ଏବଂ ଚାର୍ଜିଂ ସମୟରେ</string>
+
+    <!-- Display settings screen, summary for screen saver options, screen saver is turned off [CHAR LIMIT=20] -->
+    <string name="screensaver_settings_summary_off">ନିଷ୍କ୍ରିୟ ଥିବା ସମୟରେ ପସନ୍ଦର ଫଟୋ, ଆର୍ଟୱାର୍କ, ଘଣ୍ଟା ଏବଂ ଆହୁରି ଅନେକ କିଛି ଦେଖାନ୍ତୁ</string>
+
+    <!-- Communal Settings -->
+    <!-- Title of the communal settings under Settings > Communal [CHAR LIMIT=30] -->
+    <string name="communal_settings_title">ହବ ମୋଡ</string>
+
+    <!-- Summary for when to automatically show hub mode (widgets on lockscreen): never  [CHAR LIMIT=100] -->
+    <string name="when_to_show_hubmode_never">କେବେ ବି ନୁହେଁ</string>
+
+    <!-- Summary for when to automatically show hub mode (widgets on lockscreen): charging  [CHAR LIMIT=100] -->
+    <string name="when_to_show_hubmode_charging">ଚାର୍ଜିଂ ସମୟରେ</string>
+
+    <!-- Summary for when to automatically show hub mode (widgets on lockscreen): docked and charging [CHAR LIMIT=100] -->
+    <string name="when_to_show_hubmode_docked">ଡକ ଏବଂ ଚାର୍ଜିଂ ହେଉଥିବା ସମୟରେ</string>
+</resources>

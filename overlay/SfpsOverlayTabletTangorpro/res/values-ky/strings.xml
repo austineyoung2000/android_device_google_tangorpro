@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">Манжа изинин үлгүсүн жаңыртуу үчүн Манжа изи менен ачуу функциясында алынган сүрөттөр колдонулат. Сүрөттөр менен үлгү планшетте гана иштетилет. Сүрөттөр сакталбайт, ал эми манжа изинин үлгүсү планшетиңизде гана сакталып, эч жакка жөнөтүлбөйт.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Манжа изи менен ачууда алынган сүрөттөр манжа изинин үлгүсүн жаңыртуу үчүн колдонулат. Бул сүрөттөр сакталбайт, ал эми манжа изинин үлгүсү балаңыздын планшетинде сакталып, эч жакка жөнөтүлбөйт.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Манжаңыздын изинин үлгүсүн, же болбосо \"Кулпуланган түзмөктү манжа изи менен ачуу\" функциясын каалаган убакта Тууралоого өтүп, өчүрсөңүз болот. Манжа изинин үлгүлөрү өчүрүлмөйүнчө планшетиңизде сакталат.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Балаңыз экөөңөр манжа изиңердин үлгүсүн, же болбосо, \"Манжа изи менен ачуу\" функциясын каалаган убакта Параметрлерге өтүп, өчүрүп койсоңор болот. Манжа изинин үлгүлөрү өчүрүлмөйүнчө планшетте сакталат.</string>
+</resources>

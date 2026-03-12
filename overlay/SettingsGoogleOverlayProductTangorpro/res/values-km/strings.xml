@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Message shown in SFPS enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_sfps_enroll_start_message">ប៉ះសេនស័រដោយមិនសង្កត់លើវា។ ដកម្រាមដៃចេញ បន្ទាប់ពីប៉ះម្ដងៗ។\n\nរំកិល​ម្រាមដៃបន្តិច​ក្នុង​មួយលើកៗ។ ការធ្វើបែបនេះ​ជួយចាប់យកស្នាមម្រាមដៃ​របស់អ្នក​បានកាន់តែច្រើន។</string>
+
+    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_v2_delete_message">សកម្មភាពនេះនឹងលុបគំរូស្នាមម្រាមដៃដែលបានភ្ជាប់ជាមួយ \'%1$s\' ដែលត្រូវបានរក្សាទុកនៅលើថេប្លេតរបស់អ្នក</string>
+</resources>

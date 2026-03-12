@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- The default value for RedactionInterstitial in SUW -->
+    <bool name="default_allow_sensitive_lockscreen_content">false</bool>
+</resources>

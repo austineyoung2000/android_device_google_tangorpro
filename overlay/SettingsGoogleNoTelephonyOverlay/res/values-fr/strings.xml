@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Tethering footer info [CHAR LIMIT=NONE]-->
+    <string name="tethering_footer_info">Utilisez le partage de connexion pour accéder à Internet sur d\'autres appareils via USB, Ethernet ou Bluetooth.</string>
+
+    <!-- Summary for Network and Internet settings, explaining it contains wifi and data usage setting [CHAR LIMIT=NONE]-->
+    <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
+
+    <!-- Label for non-carrier data usage in data usage screen [CHAR LIMIT=60] -->
+    <string name="non_carrier_data_usage">Consommation des données Wi-Fi</string>
+</resources>

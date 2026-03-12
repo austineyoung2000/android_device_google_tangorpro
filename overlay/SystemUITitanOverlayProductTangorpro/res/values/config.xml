@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Whether the extended restart dialog is enabled -->
+    <bool name="config_letterboxIsRestartDialogEnabled">true</bool>
+
+    <!-- Whether the additional education about reachability is enabled -->
+    <bool name="config_letterboxIsReachabilityEducationEnabled">true</bool>
+
+    <!-- Flag to activate notification to contents feature -->
+    <bool name="config_notificationToContents">true</bool>
+
+    <!-- Whether the device should display hotspot UI. If true, UI will display only when tethering
+         is available. If false, UI will never show regardless of tethering availability" -->
+    <bool name="config_show_wifi_tethering">false</bool>
+</resources>

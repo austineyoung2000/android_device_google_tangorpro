@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Message shown in SFPS enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_sfps_enroll_start_message">Sensorni bosmasdan ustiga tegining. Har safar teginganda barmogʻingizni oling.\n\nHar safar barmoqni asta suring. Bu barmoq izingizning toʻliq yozib olinishiga yordam beradi.</string>
+
+    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_v2_delete_message">Bunda planshetingizda saqlangan “%1$s” bilan aloqador barmoq izi modeli oʻchirib tashlanadi</string>
+</resources>

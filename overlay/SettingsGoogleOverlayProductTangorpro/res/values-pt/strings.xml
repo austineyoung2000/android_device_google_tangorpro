@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Message shown in SFPS enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_sfps_enroll_start_message">Toque no sensor sem pressionar. Levante o dedo a cada toque.\n\nDepois de cada toque, tire o dedo da tela antes de tocar de novo. Assim, a captura da impressão é mais precisa.</string>
+
+    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_v2_delete_message">Isso exclui o modelo de impressão digital associado a \"%1$s\" e armazenado no tablet</string>
+</resources>

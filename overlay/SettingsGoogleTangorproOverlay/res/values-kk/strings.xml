@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Дыбыс</string>
+
+    <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
+    <string name="sound_dashboard_summary">Дыбыс деңгейі</string>
+
+    <!-- Sound: Other sounds: Title for the option enabling charging sounds and vibration. [CHAR LIMIT=50] -->
+    <string name="charging_sounds_title">Зарядтау дыбысы</string>
+
+    <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
+    <string name="edge_to_edge_navigation_summary">Негізгі бетке өту үшін төменнен жоғары қарай жылдам сырғытыңыз. Тапсырмалар жолағын пайдалану үшін төменнен жоғары қарай баяу сырғытыңыз. Қолданбаларды ауыстыру үшін төменнен жоғары қарай сырғытып, ұстап тұрыңыз да, жіберіңіз. Артқа оралу үшін экранның сол немесе оң жиегінен сырғытыңыз.</string>
+</resources>

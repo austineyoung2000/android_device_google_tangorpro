@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- The width/height of the keyguard bottom area icon view on keyguard. -->
+    <dimen name="keyguard_affordance_fixed_height">64dp</dimen>
+    <dimen name="keyguard_affordance_fixed_width">64dp</dimen>
+    <dimen name="keyguard_affordance_fixed_radius">32dp</dimen>
+    <dimen name="keyguard_affordance_fixed_padding">14dp</dimen>
+
+    <dimen name="keyguard_affordance_horizontal_offset">40dp</dimen>
+
+    <dimen name="keyguard_affordance_vertical_offset">40dp</dimen>
+
+    <!-- The maximum offset in either direction that elements are moved horizontally to prevent
+         burn-in on AOD. -->
+    <dimen name="burn_in_prevention_offset_x">0dp</dimen>
+
+    <!-- The maximum offset in either direction that elements are moved vertically to prevent
+         burn-in on AOD. -->
+    <dimen name="burn_in_prevention_offset_y">0dp</dimen>
+
+    <!-- The maximum offset in either direction that elements are moved vertically to prevent
+         burn-in on AOD. -->
+    <dimen name="burn_in_prevention_offset_y_clock">0dp</dimen>
+
+    <!-- The margin applied between complications -->
+    <dimen name="dream_overlay_complication_margin">24dp</dimen>
+</resources>

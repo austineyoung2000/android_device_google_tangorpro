@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Message shown in SFPS enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_sfps_enroll_start_message">แตะเซ็นเซอร์โดยไม่ต้องกด ยกนิ้วขึ้นหลังแตะแต่ละครั้ง\n\nขยับนิ้วเล็กน้อยในแต่ละครั้ง การทำเช่นนี้จะช่วยให้บันทึกลายนิ้วมือของคุณได้มากขึ้น</string>
+
+    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_v2_delete_message">การดำเนินการนี้จะลบรูปแบบลายนิ้วมือที่เชื่อมโยงกับ \"%1$s\" ซึ่งจัดเก็บอยู่ในแท็บเล็ตของคุณ</string>
+</resources>

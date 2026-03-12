@@ -15,13 +15,6 @@ TARGET_KERNEL_PLATFORM_SOURCE := google/gs-$(TARGET_LINUX_KERNEL_VERSION)
 
 BOARD_WITHOUT_RADIO := true
 
-DEVICE_PACKAGE_OVERLAYS += device/google/tangorpro/tangorpro/overlay
-DEVICE_PACKAGE_OVERLAYS += device/google/tangorpro/tangorpro/overlay-lineage
-
-PRODUCT_PACKAGES += \
-        UwbOverlayT6pro \
-        WifiOverlayT6pro
-
 # Disable camera flash and autofocus related xml with a disable flag.
 # This flag need to be set before device/google/gs201/device.mk
 DISABLE_CAMERA_FS_AF := true
@@ -74,10 +67,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/tablet_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/tablet_core_hardware.xml
 
-# SKU specific RROs
-PRODUCT_PACKAGES += \
-    SettingsOverlayGTU8P
-
 # ANGLE - Almost Native Graphics Layer Engine
 PRODUCT_PACKAGES += \
     ANGLE
@@ -91,9 +80,31 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    GrilRadioCustomizableNoRadio \
+    BiometricGs201Overlay \
+    CompanionDeviceManagerOverlayTangorpro \
+    FrameworkResOverlayProductTangorpro \
+    FrameworkResOverlayTangorpro \
+    FrameworkResOverlayVendorTangorpro \
+    GoogleConfigSideFpsOverlay \
+    LargeScreenConfigOverlay \
+    PixelUwbOverlayT6proTangorpro \
+    PixelWifiOverlay2023_T6proGs201 \
+    PixelWifiOverlay2023_T6proTangorpro \
+    SafetyRegulatoryInfoOverlayProductTangorpro \
+    SconeCoexOverlayTangotron \
+    SettingsGoogleNoTelephonyOverlay \
+    SettingsGoogleOverlayProductTangorpro \
     SettingsGoogleTangorproOverlay \
-    TangorproGMSOverlay \
+    SettingsOverlayGTU8P \
+    SettingsProviderOverlayProductTangorpro \
+    SfpsOverlayGs201 \
+    SfpsOverlayTabletTangorpro \
+    SystemUITitanOverlayProductTangorpro \
+    SystemUITitanOverlayVendorTangorpro \
+    TeleServiceOverlayTangorpro \
+    TelephonyProviderOverlayTangorpro \
+    TitanConfigOverlay \
+    TitanNexusLauncherOverlay \
     TitanSettingsOverlay \
     TitanSettingsProviderOverlay \
     TitanSysuiConfigOverlay

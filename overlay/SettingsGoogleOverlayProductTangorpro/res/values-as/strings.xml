@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Message shown in SFPS enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_sfps_enroll_start_message">পাৱাৰ ছেন্সৰটো নিটিপাকৈ সেইটোত স্পৰ্শ কৰক। প্ৰতিবাৰ স্পৰ্শ কৰাৰ পাছত আপোনাৰ আঙুলিটো উঠাওক।\n\nপ্ৰতিবাৰেই আপোনাৰ আঙুলিটো অলপ লৰচৰ কৰক। এইটোৱে আপোনাৰ ফিংগাৰপ্ৰিণ্টৰ অধিক তথ্য কেপচাৰ কৰাত সহায় কৰে।</string>
+
+    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_v2_delete_message">এইটোৱে আপোনাৰ ফ’নত ষ্ট’ৰ কৰি থোৱা \'%1$s\'ৰ সৈতে জড়িত ফিংগাৰপ্ৰিণ্টৰ মডেল মচি পেলায়</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <color name="camera_privacy_light_day">#0000ff00</color>
+
+    <color name="camera_privacy_light_dusk">#0000c000</color>
+
+    <color name="camera_privacy_light_night">#00008000</color>
+</resources>

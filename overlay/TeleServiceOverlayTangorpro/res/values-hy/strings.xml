@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Official label of the phone app, as seen in "Manage Applications"
+         and other settings UIs. -->
+    <string name="phoneAppLabel">Բջջային տվյալներ</string>
+
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label">Պլանշետի տեղեկություններ</string>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. [CHAR LIMIT=TOAST] -->
+    <string name="low_memory">ტაბლეტის მეხსიერება გავსებულია. ადგილის გასათავისუფლებლად წაშალეთ ფაილების ნაწილი.</string>
+
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog">ტაბლეტის პარამეტრები</string>
+
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will
+         be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm">თქვენი ტაბლეტი გაითიშება.</string>
+
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions">ტაბლეტის პარამეტრები</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms">ამ აპს შეუძლია თქვენს ტაბლეტში შენახული ყველა SMS (ტექსტური) შეტყობინების წაკითხვა.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity">აპს შეეძლება, საკუთარი ნაწილები მუდმივად ჩაწეროს მეხსიერებაში. ეს შეზღუდავს მეხსიერების ხელმისაწვდომობას სხვა აპებისთვის და შეანელებს ტაბლეტს.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted">აპს შეეძლება საკუთარი თავის სისტემის ჩატვირთვისას ჩართვა. ამან შეიძლება გამოიწვიოს ჩატვირთვის დროის გაზრდა და ტაბლეტის შენელება, რადგან აპი ყოველთვის ჩართული იქნება.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky">აპს შეეძლება არასაჩქარო შეტყობინებების გაგზავნა, რომლებიც რჩებიან გაგზავნის დასრულების შემდეგაც. ამ გადაგზავნის ზომაზე მეტად გამოყენებამ შეიძლება შეანელოს ან შეაფერხოს თქვენი ტაბლეტის მუშაობა ზედმეტად დიდი მოცულობის მეხსიერების გამოყენების შედეგად.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts">აპს საშუალებას აძლევს, წაიკითხოს თქვენს ტაბლეტზე შენახული კონტაქტების მონაცემები. აპს, ასევე, ექნება წვდომა თქვენს ტაბლეტზე არსებულ ანგარიშებზე, რომლებსაც კონტაქტები აქვთ შექმნილი. ეს შეიძლება მოიცავდეს თქვენ მიერ ინსტალირებული აპების მიერ შექმნილ ანგარიშებს. ეს ნებართვა უფლებას აძლევს აპებს, შეინახონ თქვენი კონტაქტების მონაცემები და მავნე აპებმა შეიძლება თქვენთვის შეუტყობინებლად გააზიარონ საკონტაქტო მონაცემები.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts">აპს საშუალებას აძლევს, შეცვალოს თქვენს ტაბლეტზე შენახული კონტაქტების მონაცემები. ეს ნებართვა საშუალებას აძლევს აპებს, წაშალონ კონტაქტის მონაცემები.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog">აპს შეეძლება, შეცვალოს თქვენი ტაბლეტის ზარების ჟურნალი, მათ შორის შემომავალი და გამავალი ზარების მონაცემები. მავნე აპებმა შეიძლება გამოიყენონ ეს თქვენი ზარების ჟურნალის წასაშლელად ან შესაცვლელად.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCalendar">ამ აპს შეუძლია თქვენს ტაბლეტში შენახული კალენდრის ყველა მოვლენის წაკითხვა და თქვენი კალენდრის მონაცემების გაზიარება ან შენახვა.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCalendar">ამ აპს შეუძლია თქვენს ტაბლეტში კალენდრის მოვლენების დამატება, ამოშლა ან შეცვლა. ამ აპს შეუძლია კალენდრების მფლობელების სახელით შეტყობინებების გაგზავნა ან მოვლენების მათი მფლობელების შეტყობინების გარეშე შეცვლა.</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock">დაიცავით ტაბლეტი დაძინებისგან</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock">აპს შეეძლება ხელი შეუშალოს ტაბლეტის დაძინებას.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_transmitIr">რთავს ნებას აპს გამოიყენოს ტაბლეტის ინფრაწითელი გადამცემი.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone">აპს შეეძლება, შეცვალოს ტაბლეტის დროის სარტყელი.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts">აპს შეეძლება, მიიღოს ტაბლეტისთვის ცნობილი ანგარიშების სია. ეს შეიძლება მოიცავდეს ნებისმიერ ანგარიშს, რომელიც თქვენ მიერ დაყენებული აპლიკაციებით შეიქმნა.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState">აპს შეეძლება, მიიღოს Wi-Fi ქსელში ყველა მოწყობილობაზე გაგზავნილი პაკეტები ჯგუფური მისამართების გამოყენებით. მოიხმარს მეტ ენერგიას, ვიდრე არამრავალმისამართიანი რეჟიმი.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin">აპს შეეძლება ადგილობრივი Bluetooth ტაბლეტის პარამეტრების დაყენება და დისტანციური მოწყობილობების აღმოჩენა და დაწყვილება.</string>
+
+    <string name="permdesc_changeWimaxState">აპს შეეძლება, დაუკავშიროს და გამოაერთოს ტაბლეტი WiMAX ქსელებიდან.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth">აპს შეეძლება, ნახოს Bluetooth-ის კონფიგურაცია ტაბლეტზე, შექმნას და მიიღოს კავშირები დაწყვილებულ მოწყობილობებთან.</string>
+
+    <!-- Message shown on secondary screens to direct users to use their phone to finish biometric authorization [CHAR LIMIT=NONE] -->
+    <string name="biometric_dialog_secondary_display_toast">დაადასტურეთ, რომ თქვენ იყენებთ თქვენს ტაბლეტს</string>
+
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin">ეკრანის განბლოკვისთვის არასწორად აკრეფილი პაროლების რაოდენობის მონიტორინგი. ტაბლეტის დაბლოკვა ან მასზე არსებული ყველა მონაცემის წაშლა ძალიან ბევრჯერ არასწორი პაროლის შეყვანის შემთხვევაში.</string>
+    <string name="policydesc_watchLogin_secondaryUser">ეკრანის განბლოკვისას არასწორი პაროლების შეყვანილი რაოდენობის მონიტორინგი და ტაბლეტის დაბლოკვა ან მრავლალჯერ არასწორი პაროლის შეყვანის შემთხვევაში ამ მომხმარებლის მთელი ინფორმაციის წაშლა.</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData">ტაბლეტის მონაცემების გაუფრთხილებლად წაშლა, ქარხნული მონაცემების აღდგენით</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData_secondaryUser">ამ მომხმარებლის მონაცემების გაუფრთხილებელი წაშლა ამ ტაბლეტზე.</string>
+
+    <!-- Shown in the lock screen when there is no SIM. -->
+    <string name="lockscreen_missing_sim_message">ტაბლეტში SIM არ არის.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin">თქვენ არასწორად დახატეთ განბლოკვის ნიმუში %1$d-ჯერ. კიდევ %2$d წარუმატებელი ცდის შემდეგ დაგჭირდებათ თქვენი ტაბლეტის განბლოკვა Google-ში შესვლით.\n\n გთხოვთ, ხელახლა სცადოთ %3$d წამში.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe">თქვენ არასწორად სცადეთ ტაბლეტის განბლოკვა %1$d-ჯერ. კიდევ %2$d წარუმატებელი ცდის შემდეგ ტაბლეტზე დაყენდება საწყისი, ქარხნული პარამეტრები და მომხმარებლის ყველა მონაცემი დაიკარგება.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the
+        maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping">თქვენ %d-ჯერ არასწორად სცადეთ ტაბლეტის განბლოკვა. ამიტომ ტაბლეტზე დადგება საწყისი, ქარხნული პარამეტრები.</string>
+
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility
+         service to put the device into explore by touch mode, displayed as a dialog message when
+         the user selects to enables the service. (default). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message">%1$s-ს სურს „შეხებით შესწავლის“ რეჟიმის ჩრთვა. ეს ტელეფონის ჟესტებით მართვისა და იმ ელემენტების აღწერის მოსმენის შესაძლებლობას მოგცემთ, რომელსაც შეეხებით.</string>
+
+    <!-- Name of the default audio route when nothing is connected to
+         a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name">ტაბლეტი</string>
+
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe">თქვენ არასწორად სცადეთ ტაბლეტის განბლოკვა %1$d-ჯერ. კიდევ %2$d წარუმატებელი ცდის შემდეგ ტაბლეტზე დაყენდება საწყისი, ქარხნული პარამეტრები და მომხმარებლის ყველა მონაცემი დაიკარგება.</string>
+
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping">თქვენ არასწორად სცადეთ ტაბლეტის განბლოკვა %d-ჯერ. ტაბლეტზე დაყენდება საწყისი, ქარხნული პარამეტრები და მომხმარებლის ყველა მონაცემი დაიკარგება.</string>
+
+    <!-- Message shown in dialog when user is almost at the limit where they will be
+    locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login">თქვენ არასწორად დახატეთ თქვენი განბლოკვის ნიმუში %1$d ჯერ. კიდევ %2$d წარუმატებელი ცდის შემდეგ მოგთხოვთ ტაბლეტის განბლოკვას ელფოსტის ანგარიშის გამოყენებით.\n\n ხელახლა სცადეთ %3$d წამში.</string>
+
+    <!-- Title of the dialog shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_title_for_settings_dialog">ტაბლეტის პარამეტრები მიუწვდომელია</string>
+
+    <!-- Message shown when an app is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message">ამჟამად ამ აპზე თქვენი %1$s-დან წვდომა შეუძლებელია. ცადეთ ტაბლეტიდან.</string>
+
+    <!-- Message shown when a runtime permission request is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_permission_request">ეს აპი დამატებით ნებართვებს მოითხოვს, მაგრამ ნებართვების მიცემა შეუძლებელია სტრიმინგის სესიაში თავდაპირველად მიანიჭეთ ნებართვა ტაბლეტზე.</string>
+
+    <!-- Message shown when an app being streamed to another device requests authentication such as via the biometrics API, and the user needs to complete the on their device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">ეს აპი დამატებით უსაფრთხოებას ითხოვს. ცადეთ ტაბლეტიდან.</string>
+
+    <!-- Message shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_settings_dialog">ამჟამად ამ აპზე თქვენი %1$s-დან წვდომა შეუძლებელია. ცადეთ ტაბლეტიდან.</string>
+
+    <!-- Title of notification letting users know the battery level at the time the notification was posted [CHAR_LIMIT=80] -->
+    <string name="battery_saver_charged_notification_summary">ტაბლეტი საკმარისად არის დატენილი. ფუნქციები შეზღუდული აღარ არის.</string>
+
+    <!-- Strings for VirtualDeviceManager -->
+    <!-- Error message indicating the camera cannot be accessed when running on a virtual device. [CHAR LIMIT=NONE] -->
+    <string name="vdm_camera_access_denied">ტაბლეტის კამერაზე წვდომა ვერ მოხერხდა თქვენი %1$s-დან</string>
+</resources>

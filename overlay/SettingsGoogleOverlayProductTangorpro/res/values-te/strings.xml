@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Message shown in SFPS enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_sfps_enroll_start_message">సెన్సార్‌ను నొక్కకుండా తాకండి. మీరు సెన్సార్‌ను తాకిన ప్రతిసారీ, మీ వేలును ఎత్తండి.\n\nప్రతిసారీ మీ వేలును కొద్దిగా కదపండి. మీ వేలిముద్రను స్పష్టంగా క్యాప్చర్ చేయడానికి ఇది సహాయపడుతుంది.</string>
+
+    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_v2_delete_message">ఇది మీ టాబ్లెట్‌లో స్టోర్ చేయబడిన \'%1$s\'తో అనుబంధించబడిన వేలిముద్ర మోడల్‌ను తొలగిస్తుంది</string>
+</resources>

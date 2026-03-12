@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Lyd</string>
+
+    <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
+    <string name="sound_dashboard_summary">Volum</string>
+
+    <!-- Sound: Other sounds: Title for the option enabling charging sounds and vibration. [CHAR LIMIT=50] -->
+    <string name="charging_sounds_title">Ladelyder</string>
+
+    <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
+    <string name="edge_to_edge_navigation_summary">For å gå til startskjermen, sveip raskt opp fra bunnen. For å åpne oppgavelinjen, sveip sakte opp fra bunnen. For å bytte app, sveip opp fra bunnen, hold og slipp. For å gå tilbake, sveip fra venstre eller høyre kant.</string>
+</resources>

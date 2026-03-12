@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<user-types>
+    <full-type max-allowed="7" name="android.os.usertype.full.SECONDARY" />
+</user-types>

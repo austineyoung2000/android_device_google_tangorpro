@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. [CHAR LIMIT=TOAST] -->
+    <string name="low_memory">Memorija tableta je puna! Izbrišite neke datoteke da biste oslobodili prostor.</string>
+
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog">Opcije za tablet</string>
+
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will
+         be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm">Tablet će se isključiti.</string>
+
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions">Opcije za tablet</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms">Ova aplikacija može da čita sve SMS (tekstualne) poruke koje se čuvaju na tabletu.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity">Dozvoljava aplikaciji da učini sopstvene komponente trajnim u memoriji. Ovo može da ograniči memoriju dostupnu drugim aplikacijama i uspori tablet.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted">Omogućava da se aplikacija pokrene odmah nakon pokretanja sistema. To može da uspori pokretanje tableta, pri čemu ova aplikacija može da uspori funkcionisanje celog tableta time što će uvek biti aktivna.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky">Dozvoljava aplikaciji da šalje prijemčiva emitovanja, koja ostaju po završetku emitovanja. Prekomerna upotreba može da uspori ili destabilizuje tablet tako što će ga primorati da troši previše memorije.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts">Dozvoljava aplikaciji da čita podatke o kontaktima koje čuvate na tabletu. Aplikacije će imati pristup i nalozima na vašem tabletu na kojima su napravljeni kontakti. Tu mogu da spadaju nalozi koje su otvorile aplikacije koje ste instalirali. Ova dozvola omogućava aplikacijama da čuvaju podatke o kontaktima i zlonamerne aplikacije mogu da dele podatke o kontaktima bez vašeg znanja.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts">Dozvoljava aplikaciji da menja podatke o kontaktima koje čuvate na tabletu. Ova dozvola omogućava aplikacijama da brišu podatke o kontaktima.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog">Dozvoljava aplikaciji da menja evidenciju poziva na tabletu, uključujući podatke o dolaznim i odlaznim pozivima. Zlonamerne aplikacije mogu ovo da koriste da bi brisale ili menjale evidenciju poziva.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCalendar">Ova aplikacija može da čita sve događaje iz kalendara koje čuvate na tabletu, kao i da deli ili čuva podatke iz kalendara.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCalendar">Ova aplikaciji može da dodaje, uklanja ili menja događaje iz kalendara na tabletu. Ova aplikacija može da šalje poruke koje izgledaju kao da ih šalju vlasnici kalendara ili da menja događaje bez znanja vlasnika.</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock">sprečavanje prelaska tableta u stanje spavanja</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock">Dozvoljava aplikaciji da spreči tablet da pređe u stanje spavanja.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_transmitIr">Dozvoljava aplikaciji da koristi odašiljač infracrvenih zraka tableta.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone">Dozvoljava aplikaciji da promeni vremensku zonu tableta.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts">Dozvoljava aplikaciji da preuzima listu naloga poznatih tabletu. Ovo može da obuhvata bilo koje naloge koje prave aplikacije koje instalirate.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState">Dozvoljava aplikaciji da prima pakete koji se šalju na sve uređaje na WiFi mreži pomoću višesmernih adresa, a ne samo na tablet. Koristi više napajanja od režima jednosmernog saobraćaja.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin">Dozvoljava aplikaciji da konfiguriše lokalni Bluetooth tablet, kao i da otkrije daljinske uređaje i upari se sa njima.</string>
+
+    <string name="permdesc_changeWimaxState">Dozvoljava aplikaciji da povezuje tablet sa WiMAX mrežama i prekida veze sa njima.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth">Dozvoljava aplikaciji da pregleda konfiguraciju Bluetooth-a na tabletu, kao i da uspostavlja i prihvata veze sa uparenim uređajima.</string>
+
+    <!-- Message shown on secondary screens to direct users to use their phone to finish biometric authorization [CHAR LIMIT=NONE] -->
+    <string name="biometric_dialog_secondary_display_toast">Da biste nastavili, potvrdite identitet na tabletu</string>
+
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin">Prati broj netačno unetih lozinki prilikom otključavanja ekrana i zaključava tablet ili briše podatke sa tableta ako je netačna lozinka uneta previše puta.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Nadgleda broj netačnih lozinki unetih pri otključavanju ekrana i zaključava tablet ili briše sve podatke ovog korisnika ako se unese previše netačnih lozinki.</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData">Brisanje podataka na tabletu bez upozorenja resetovanjem na fabrička podešavanja.</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData_secondaryUser">Briše podatke ovog korisnika na ovom tabletu bez upozorenja.</string>
+
+    <!-- Shown in the lock screen when there is no SIM. -->
+    <string name="lockscreen_missing_sim_message">Nema SIM-a u tabletu.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin">%1$d puta ste netačno uneli šablon za otključavanje. Nakon još %2$d nesupešna(ih) pokušaja, od vas će biti zatraženo da otključate tablet pomoću podataka za prijavljivanje na Google.\n\n Probajte ponovo za %3$d sekunde/i.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Nepravilno ste pokušali da otključate tablet %1$d puta. Nakon još neuspešnih pokušaja (%2$d) tablet će biti resetovan na fabrička podešavanja i svi korisnički podaci će biti izgubljeni.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the
+        maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping">Neispravno ste pokušali da otključate tablet %d puta. Tablet će sada biti vraćen na podrazumevana fabrička podešavanja.</string>
+
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility
+         service to put the device into explore by touch mode, displayed as a dialog message when
+         the user selects to enables the service. (default). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message">%1$s želi da omogući Istraživanje dodirom. Kada je Istraživanje dodirom uključeno, možete da čujete ili vidite opise stavke na koju ste stavili prst ili da komunicirate sa tabletom pomoću pokreta.</string>
+
+    <!-- Name of the default audio route when nothing is connected to
+         a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name">Tablet</string>
+
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe">Pokušali ste da otključate tablet netačno %1$d puta. Nakon još %2$d neuspešna(ih) pokušaja tablet će biti resetovan na fabrička podešavanja i svi korisnički podaci će biti izgubljeni.</string>
+
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping">Pokušali ste da otključate tablet netačno %d puta. Tablet će sada biti vraćen na podrazumevana fabrička podešavanja.</string>
+
+    <!-- Message shown in dialog when user is almost at the limit where they will be
+    locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login">Nacrtali ste šablon za otključavanje netačno %1$d puta. Posle još %2$d neuspešna(ih) pokušaja, od vas će biti zatraženo da otključate tablet pomoću naloga e-pošte.\n\nProbajte ponovo za %3$d sekunde/i.</string>
+
+    <!-- Title of the dialog shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_title_for_settings_dialog">Podešavanja tableta su nedostupna</string>
+
+    <!-- Message shown when an app is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message">Ovoj aplikaciji trenutno ne može da se pristupi sa uređaja %1$s. Probajte na tabletu.</string>
+
+    <!-- Message shown when a runtime permission request is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_permission_request">Ova aplikacija zahteva dodatne dozvole, ali dozvole ne mogu da se daju u sesiji strimovanja. Prvo dajte dozvolu na tabletu.</string>
+
+    <!-- Message shown when an app being streamed to another device requests authentication such as via the biometrics API, and the user needs to complete the on their device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Ova aplikacija zahteva dodatnu bezbednost. Probajte na tabletu.</string>
+
+    <!-- Message shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_settings_dialog">Ovoj aplikaciji ne može da se pristupi sa uređaja %1$s. Probajte na tabletu.</string>
+
+    <!-- Title of notification letting users know the battery level at the time the notification was posted [CHAR_LIMIT=80] -->
+    <string name="battery_saver_charged_notification_summary">Baterija tableta je dovoljno napunjena. Funkcije više nisu ograničene.</string>
+
+    <!-- Strings for VirtualDeviceManager -->
+    <!-- Error message indicating the camera cannot be accessed when running on a virtual device. [CHAR LIMIT=NONE] -->
+    <string name="vdm_camera_access_denied">Ne može da se pristupi kameri tableta sa %1$s uređaja</string>
+</resources>

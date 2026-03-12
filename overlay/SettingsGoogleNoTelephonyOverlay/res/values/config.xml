@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Whether Wi-Fi hotspot settings should be shown or not. -->
+    <bool name="config_show_wifi_hotspot_settings">false</bool>
+
+    <!-- Whether premium_sms should be shown or not. -->
+    <bool name="config_show_premium_sms">false</bool>
+
+    <!-- Whether telephony related information is visible to the end user. -->
+    <bool name="config_show_sim_info">false</bool>
+</resources>

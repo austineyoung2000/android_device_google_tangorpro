@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Tethering footer info [CHAR LIMIT=NONE]-->
+    <string name="tethering_footer_info">Օգտագործեք մոդեմի ռեժիմը՝ այլ սարքերը USB-ի, Ethernet-ի կամ Bluetooth-ի միջոցով ինտերնետին միացնելու համար։</string>
+
+    <!-- Summary for Network and Internet settings, explaining it contains wifi and data usage setting [CHAR LIMIT=NONE]-->
+    <string name="network_dashboard_summary_no_mobile">Wi‑Fi</string>
+
+    <!-- Label for non-carrier data usage in data usage screen [CHAR LIMIT=60] -->
+    <string name="non_carrier_data_usage">Թրաֆիկի օգտագործումը Wi-Fi-ի միջոցով</string>
+</resources>

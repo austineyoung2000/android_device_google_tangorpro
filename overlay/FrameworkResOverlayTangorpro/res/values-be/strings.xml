@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. [CHAR LIMIT=TOAST] -->
+    <string name="low_memory">Памяць планшэта поўная. Выдаліце некаторыя файлы, каб вызваліць месца.</string>
+
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog">Параметры планшэта</string>
+
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will
+         be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm">Планшэт будзе адключаны.</string>
+
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions">Параметры планшэта</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms">Гэта праграма можа чытаць усе SMS-паведамленні (тэкставыя паведамленні), захаваныя на вашым планшэце.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity">Дазваляе прыкладанню захоўваць некаторыя пастаянныя часткi ў памяцi. Гэта можа абмежаваць аб’ём памяці, даступнай для іншых прыкладанняў, i запаволiць працу планшэта.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted">Дазваляе прыкладанню самастойна запускацца, як толькі сістэма будзе цалкам загружана. Гэта можа павялічыць час запуску планшэту і дазволіць прыкладанню запаволіць увесь планшэт, прымушаючы яго працаваць заўсёды.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky">Дазваляе прыкладанням адпраўляць далейшыя звязаныя перадачы, якія застаюцца пасля заканчэння асноўнай перадачы. Злоўжыванне можа зрабіць працу планшэта павольнай або няўстойлівай, прымушаючы яго выкарыстоўваць занадта шмат памяці.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts">Дазваляе праграме счытваць даныя пра кантакты, якія захоўваюцца на вашым планшэце. Праграмы таксама атрымаюць доступ на планшэце да ўліковых запісаў, у якіх створаны кантакты. Сярод іх могуць быць уліковыя запісы, створаныя праграмамі, якія вы ўсталявалі. Гэты дазвол дае праграмам магчымасць захоўваць даныя пра кантакты, а шкодныя праграмы могуць абагульваць гэтыя даныя без вашага ведама.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts">Дазваляе праграме змяняць даныя пра кантакты, якія захоўваюцца на вашым планшэце. Гэты дазвол дае праграмам магчымасць выдаляць даныя пра кантакты.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog">Дазваляе прыкладанню змяняць гiсторыю выклiкаў планшэта, у тым лiку дадзеныя пра ўваходныя i зыходныя выклiкi. Шкоднасныя прыкладаннi могуць выкарыстоўваць гэта, каб выдаляць або змяняць гiсторыю выклікаў.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCalendar">Гэта праграма можа чытаць усе падзеі календара, захаваныя на вашым планшэце, і абагульваць ці захоўваць даныя календара.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCalendar">Гэта праграма можа дадаваць, выдаляць або змяняць падзеі календара на вашым планшэце. Гэта праграма можа адпраўляць паведамленні, якія могуць здавацца адпраўленымі ўладальнікамі календара, або змяняць падзеі без апавяшчэння іх уладальнікаў.</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock">прадухіліць планшэт ад пераходу ў рэжым сну</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock">Дазваляе прыкладанням прадухіляць пераход планшэта ў рэжым сну.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_transmitIr">Дазваляе праграме выкарыстоўваць інфрачырвоны перадатчык планшэта.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone">Дазваляе праграмам змяняць часавы пояс планшэта.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts">Дазваляе прыкладанню атрымлiваць спіс уліковых запісаў, вядомых планшэту. Сярод iх могуць быць улiковыя запiсы, створаныя прыкладаннямi, якiя вы ўсталявалi.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState">Дазваляе прыкладанням атрымліваць пакеты, адпраўленыя на ўсе прылады з сеткi Wi-Fi з дапамогай групавых адрасоў, а не толькі на ваш планшэт. Будзе выкарыстоўвацца больш энергіі, чым у рэжыме нешматадраснай перадачы.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin">Дазваляе праграме наладжваць лакальны планшэт Bluetooth, выяўляць і спалучаць выдаленыя прылады.</string>
+
+    <string name="permdesc_changeWimaxState">Дазваляе прыкладанням падключаць планшэт да сеткі WiMAX i адключаць яго ад яе.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth">Дазваляе прыкладанню праглядаць канфігурацыю Bluetooth на планшэце , а таксама здзяйсняць і прымаць злучэнні са спалучанымі прыладамі.</string>
+
+    <!-- Message shown on secondary screens to direct users to use their phone to finish biometric authorization [CHAR LIMIT=NONE] -->
+    <string name="biometric_dialog_secondary_display_toast">Каб працягнуць, пацвердзіце сваю асобу на планшэце</string>
+
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin">Сачыць за колькасцю няправільна набраных пароляў падчас разблакоўкі экрана і блакіраваць планшэт або сціраць усе даныя на ім, калі няправільны пароль набраны занадта шмат разоў.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Сачыць за колькасцю няправільна набраных пароляў падчас разблакіроўкі экрана і блакіраваць планшэт або сцерці ўсе даныя гэтага карыстальніка, калі няправільны пароль набраны занадта шмат разоў.</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData">Cцерці даныя з планшэта без папярэджання, выканаўшы скід да заводскіх даных.</string>
+
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData_secondaryUser">Сцерці даныя гэтага карыстальніка на дадзеным планшэце без папярэджання.</string>
+
+    <!-- Shown in the lock screen when there is no SIM. -->
+    <string name="lockscreen_missing_sim_message">У планшэце няма SIM-карты.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin">Вы няправільна ўвялі графічны ключ разблакавання пэўную колькасць разоў: %1$d. Пасля яшчэ некалькiх няўдалых спроб (%2$d) вам будзе прапанавана разблакаваць планшэт з дапамогай уваходу ў Google.\n\n Паўтарыце спробу праз наступную колькасць секунд: %3$d.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
+         where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe">Вы няправільна спрабавалі разблакаваць планшэт некалькi разоў (%1$d). Пасля яшчэ некалькiх спробаў (%2$d) ён будзе скінуты да заводскіх налад i карыстальнiцкiя дадзеныя будуць згубленыя.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the
+        maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping">Вы няправільна спрабавалі разблакаваць планшэт некалькi разоў (%d). Цяпер ён будзе скінуты да заводскіх налад.</string>
+
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility
+         service to put the device into explore by touch mode, displayed as a dialog message when
+         the user selects to enables the service. (default). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message">Служба доступу %1$s запытвае ўключэнне функцыі Explore by Touch. Калі функцыя Explore by Touch будзе ўключаная, вы зможаце пачуць або ўбачыць апісанні таго, што знаходзіцца пад вашым пальцам, або выконваць жэсты для ўзаемадзеяння з планшэтам.</string>
+
+    <!-- Name of the default audio route when nothing is connected to
+         a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name">Планшэт</string>
+
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe">Вы няправільна спрабавалі разблакiраваць планшэт некалькi разоў (%1$d). Пасля яшчэ некалькiх спроб (%2$d) ён будзе скінуты да заводскіх налад i карыстальнiцкiя дадзеныя будуць згубленыя.</string>
+
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping">Вы няправільна спрабавалі разблакiраваць планшэт некалькi разоў (%d). Цяпер ён будзе скінуты да завадскіх налад.</string>
+
+    <!-- Message shown in dialog when user is almost at the limit where they will be
+    locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login">Вы няправільна ўвялі графічны ключ разблакiроўкi пэўную колькасць разоў: %1$d. Пасля яшчэ некалькiх няўдалых спроб (%2$d) вам будзе прапанавана разблакiраваць тэлефон, увайшоўшы ў Google.\n\n Паўтарыце спробу праз %3$d с.</string>
+
+    <!-- Title of the dialog shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_title_for_settings_dialog">Налады планшэта недаступныя</string>
+
+    <!-- Message shown when an app is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message">Не ўдаецца атрымаць доступ з вашай прылады \"%1$s\". Паспрабуйце скарыстаць планшэт.</string>
+
+    <!-- Message shown when a runtime permission request is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_permission_request">Гэта праграма запытвае дадатковыя дазволы, якія немагчыма даць падчас трансляцыі. Спачатку дайце дазвол на планшэце.</string>
+
+    <!-- Message shown when an app being streamed to another device requests authentication such as via the biometrics API, and the user needs to complete the on their device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Гэтай праграме патрабуецца дадатковая бяспека. Паспрабуйце скарыстаць планшэт.</string>
+
+    <!-- Message shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
+    <string name="app_streaming_blocked_message_for_settings_dialog">Не ўдаецца атрымаць доступ з прылады \"%1$s\". Паспрабуйце скарыстаць планшэт.</string>
+
+    <!-- Title of notification letting users know the battery level at the time the notification was posted [CHAR_LIMIT=80] -->
+    <string name="battery_saver_charged_notification_summary">У планшэта дастатковы ўзровень зараду. Функцыі больш не абмежаваны.</string>
+
+    <!-- Strings for VirtualDeviceManager -->
+    <!-- Error message indicating the camera cannot be accessed when running on a virtual device. [CHAR LIMIT=NONE] -->
+    <string name="vdm_camera_access_denied">Не ўдалося атрымаць доступ да камеры планшэта з прылады \"%1$s\"</string>
+</resources>

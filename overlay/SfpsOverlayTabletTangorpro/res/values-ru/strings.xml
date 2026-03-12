@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">Изображения, создаваемые во время разблокировки по отпечатку пальца, будут использоваться для обновления модели. Они не сохраняются, а модель отпечатка хранится на планшете и никуда не отправляется. Обработка данных происходит только на вашем планшете.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Изображения, получаемые во время разблокировки по отпечатку пальца, используются для обновления модели отпечатка. Они не сохраняются, а модель отпечатка хранится на планшете ребенка и никуда не отправляется. Обработка данных происходит только на планшете.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Вы можете в любой момент удалить модель отпечатка или отключить разблокировку по отпечатку пальца в настройках. Модели хранятся на планшете, пока вы их не удалите.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Вы и ваш ребенок можете в любой момент удалить модель отпечатка пальца или отключить разблокировку по отпечатку в настройках. Модели хранятся на планшете, пока вы их не удалите.</string>
+</resources>

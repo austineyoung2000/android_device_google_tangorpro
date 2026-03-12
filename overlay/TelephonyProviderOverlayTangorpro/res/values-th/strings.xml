@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Official label of the TelephonyProvider, as seen in the "Manage
+         Applications" UI.  The TelephonyProvider stores configuration
+         info about the carrier and cell network, and also provides
+         storage for SMS and MMS messages. [CHAR LIMIT=40] -->
+    <string name="app_label">การกำหนดค่าเครือข่ายมือถือ</string>
+</resources>

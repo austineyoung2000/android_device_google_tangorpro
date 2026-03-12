@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Message shown in SFPS enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_sfps_enroll_start_message">Raak aan die sensor sonder om dit te druk. Lig jou vinger elke keer op nadat jy daaraan geraak het.\n\nSkuif jou vinger elke keer effens. Dit help om ’n groter deel van jou vingerafdruk vas te vang.</string>
+
+    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_v2_delete_message">Dit vee die vingerafdrukmodel uit wat geassosieer word met “%1$s” wat op jou tablet geberg is</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Doze: does this device support STATE_DOZE?  -->
+    <bool name="doze_display_state_supported">true</bool>
+
+    <!-- Doze: does this device support STATE_DOZE_SUSPEND?  -->
+    <bool name="doze_suspend_display_state_supported">false</bool>
+
+    <!-- Type of a sensor that provides a low-power estimate of the desired display
+         brightness, suitable to listen to while the device is asleep (e.g. during
+         always-on display) -->
+    <string name="doze_brightness_sensor_type">com.google.sensor.binned_brightness</string>
+
+    <!-- Doze: Table that translates sensor values from the doze_brightness_sensor_type sensor
+               to brightness values in the integer scale [1, 255]; -1 means keeping the current
+               brightness. -->
+    <integer-array name="config_doze_brightness_sensor_to_brightness">
+        <item>-1</item>
+        <item>11</item>
+        <item>7</item>
+        <item>32</item>
+        <item>32</item>
+    </integer-array>
+
+    <!-- Doze: Table that translates sensor values from the doze_brightness_sensor_type sensor
+               to an opacity value for a black scrim that is overlayed in AOD1.
+               Valid range is from 0 (transparent) to 255 (opaque).
+               -1 means keeping the current opacity. -->
+    <integer-array name="config_doze_brightness_sensor_to_scrim_opacity">
+        <item>-1</item>
+        <item>157</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <!-- Whether to show the full screen user switcher. -->
+    <bool name="config_enableFullscreenUserSwitcher">true</bool>
+
+    <!-- Whether to go to the launcher when unlocking via an occluding app -->
+    <bool name="config_goToHomeFromOccludedApps">true</bool>
+
+    <!-- Components to allow running fingerprint listening if their activity is occluding the lock screen. -->
+    <string-array name="config_fingerprint_listen_on_occluding_activity_packages">
+        <item>com.google.android.apps.mediashell</item>
+    </string-array>
+
+    <!-- Whether the communal service should be enabled -->
+    <bool name="config_communalServiceEnabled">true</bool>
+
+    <!-- Component names of allowed communal widgets -->
+    <string-array name="config_communalWidgetAllowlist">
+        <item>com.google.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider</item>
+        <item>com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.verticals.snapshot.widgets.weather.WeatherWidget_Receiver</item>
+        <item>com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.appwidget.favorites.FavoritesWidgetReceiver</item>
+        <item>com.google.android.deskclock/com.android.deskclock.appwidgets.timerstarter.TimerStarterAppWidgetProvider</item>
+        <item>com.google.android.googlequicksearchbox/com.google.android.apps.search.widgets.stocks.StocksWidgetReceiver</item>
+    </string-array>
+
+    <!-- Component name of communal source service -->
+    <string name="config_communalSourceComponent">com.google.assistant.hubui/com.google.assistant.surfaces.dragonglass.opal.lockscreenservice.LockScreenService</string>
+
+    <!-- Class for the communal source connector to be used -->
+    <string name="config_communalSourceConnector">com.google.android.systemui.communal.projection.CommunalSourceImpl$Connector</string>
+
+    <!-- Flag controlling whether visual query attention detection has been enabled. -->
+    <bool name="config_enableVisualQueryAttentionDetection">true</bool>
+
+    <!-- The dream component used when the device is low light environment. -->
+    <string name="config_lowLightDreamComponent">com.android.systemui/com.google.android.systemui.lowlightclock.LowLightClockDreamService</string>
+
+    <!-- Determines whether low light should be allowed pre-unlock -->
+    <bool name="config_allowLowLightBehaviorWhenLocked">true</bool>
+
+    <!-- Configuration to swipe to open glanceable hub -->
+    <bool name="config_swipeToOpenGlanceableHub">true</bool>
+
+    <!-- Whether or not to show the UMO on the glanceable hub when media is playing. -->
+    <bool name="config_showUmoOnHub">true</bool>
+
+    <!-- Will display the bouncer on one side of the display, and the current user icon and
+         user switcher on the other side -->
+    <bool name="config_enableBouncerUserSwitcher">true</bool>
+
+    <!-- Will enable custom clocks on the lockscreen -->
+    <bool name="config_enableLockScreenCustomClocks">false</bool>
+</resources>

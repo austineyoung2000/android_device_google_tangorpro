@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">ඔබ ඇඟිලි සලකුණු අගුළු හැරීම භාවිතා කරන විට, ඔබේ ඇඟිලි සලකුණු ආකෘතිය යාවත්කාලීන කිරීමට රූප භාවිතා වේ. ඔබේ ඇඟිලි සලකුණු ආකෘතිය තැනීමට භාවිතා කරන රූප කිසි විටක ගබඩා නොකරනු ඇති නමුත්, ඇඟිලි සලකුණු ආකෘතිය ඔබේ ටැබ්ලටයෙහි සුරක්ෂිතව ගබඩා කර ඇති අතර කිසි විටක ටැබ්ලටය හැර නොයයි. සියලු සැකසීම් ඔබේ ටැබ්ලටයෙහි සුරක්ෂිතව සිදු වේ.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">ඔවුන් ඇඟිලි සලකුණු අගුළු හැරීම භාවිතා කරන විට, ඔවුන්ගේ ඇඟිලි සලකුණු ආකෘතිය යාවත්කාලීන කිරීමට රූප භාවිතා වේ. ඔබේ දරුවාගේ ඇඟිලි සලකුණු ආකෘතිය තැනීමට භාවිතා කරන රූප කිසි විටක ගබඩා නොකරනු ඇති නමුත්, ඇඟිලි සලකුණු ආකෘතිය ටැබ්ලටයෙහි සුරක්ෂිතව ගබඩා කර ඇති අතර කිසි විටක ටැබ්ලටය හැර නොයයි. සියලු සැකසීම් ඔබේ ටැබ්ලටයෙහි සුරක්ෂිතව සිදු වේ.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">ඔබට සැකසීම් තුළ ඕනෑම වේලාවක ඔබගේ ඇඟිලි සලකුණු ආකෘතිය මැකීමට හෝ ඇඟිලි සලකුණු අගුලු හැරීම අක්‍රිය කිරීමට හැකි ය. ඇඟිලි සලකුණු ආකෘති ඔබ මකන තෙක් ටැබ්ලටයෙහි ගබඩා වී තිබේ.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">ඔබට සහ ඔබේ දරුවාට සැකසීම් තුළ ඕනෑම වේලාවක ඒ අයගේ ඇඟිලි සලකුණු ආකෘතිය මැකීමට හෝ ඇඟිලි සලකුණු අගුලු හැරීම අක්‍රිය කිරීමට හැකිය. ඇඟිලි සලකුණු ආකෘති මකා දමන තුරු ටැබ්ලටයේ ගබඩා වී තිබේ.</string>
+</resources>

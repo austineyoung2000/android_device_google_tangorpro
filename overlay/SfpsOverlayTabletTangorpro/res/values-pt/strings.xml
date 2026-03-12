@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">Quando você usa esse recurso, as imagens da sua digital são usadas para atualizar o modelo. Essas imagens não são armazenados, mas o modelo fica salvo em segurança no tablet, sem sair dele. Todo o processo ocorre de forma segura no tablet.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Quando a criança utiliza o recurso desbloqueio por impressão digital, as imagens são usadas para atualizar o modelo de impressão digital dela. As imagens usadas para criar o modelo da criança nunca são armazenadas, mas esse modelo fica salvo em segurança no tablet e nunca é enviado para fora dele. Todo o processamento ocorre de forma segura no tablet.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Você pode excluir o modelo da sua impressão digital ou desativar esse recurso a qualquer momento nas configurações. Os modelos ficam armazenados no tablet até serem excluídos.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Você e a criança podem excluir o modelo dela ou desativar o desbloqueio por impressão digital a qualquer momento nas Configurações. Os modelos de impressão digital ficam armazenados no tablet até serem excluídos.</string>
+</resources>
