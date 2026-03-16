@@ -5,78 +5,25 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-TARGET_RECOVERY_DEFAULT_ROTATION := ROTATION_LEFT
-TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION := $(TARGET_RECOVERY_DEFAULT_ROTATION)
-
+# Kernel
 TARGET_LINUX_KERNEL_VERSION := 6.1
 TARGET_KERNEL_DEVICE := tangorpro
 TARGET_KERNEL_DIR := device/google/$(TARGET_KERNEL_DEVICE)-kernels/$(TARGET_LINUX_KERNEL_VERSION)
 TARGET_KERNEL_PLATFORM_SOURCE := google/gs-$(TARGET_LINUX_KERNEL_VERSION)
 
-BOARD_WITHOUT_RADIO := true
-
-# Disable camera flash and autofocus related xml with a disable flag.
-# This flag need to be set before device/google/gs201/device.mk
-DISABLE_CAMERA_FS_AF := true
-
-# Disable baro, prox, hifi sensor related xml with a disable flag.
-DISABLE_SENSOR_BARO_PROX_HIFI := true
-
 # Identify the device type.
 # This flag need to be set before device/google/gs201/device.mk
-# to have tablet COD setting
-USE_TABLET_BT_COD := true
+TARGET_IS_TABLET := true
 
-# Disable telephony euicc related xml with a disable flag.
-# This flag need to be set before device/google/gs201/device.mk
-DISABLE_TELEPHONY_EUICC := true
-
+# Inherit from gs201
 include device/google/gs201/device-shipping-common.mk
-
-# UWB
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.uwb.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.uwb.xml
-
-# Recovery files
-PRODUCT_COPY_FILES += \
-    device/google/tangorpro/recovery/init.recovery.device.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.tangorpro.rc
-
-# Bluetooth HAL
-PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.prebuilt.xml \
-    android.hardware.bluetooth_le.prebuilt.xml
-
-# Fingerprint
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
-
-# Wifi HAL
-PRODUCT_SOONG_NAMESPACES += \
-    hardware/synaptics/wlan/synadhd/config
-
-# Enable Telecom feature
-# b/227692870
-PRODUCT_COPY_FILES += \
-	frameworks/native/data/etc/android.software.telecom.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.telecom.xml
-
-# Lights HAL
-PRODUCT_PACKAGES += \
-    android.hardware.lights-service.tangorpro
-
-# Device features
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/tablet_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/tablet_core_hardware.xml
-
-# ANGLE - Almost Native Graphics Layer Engine
-PRODUCT_PACKAGES += \
-    ANGLE
 
 # GMS
 WITH_GMS_COMMS_SUITE := false
 
-# Init
+# Lights HAL
 PRODUCT_PACKAGES += \
-    init.recovery.tangorpro.touch.rc
+    android.hardware.lights-service.tangorpro
 
 # Overlays
 PRODUCT_PACKAGES += \
@@ -113,13 +60,28 @@ PRODUCT_PACKAGES += \
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/vendor.prop
 
-# Sensors
+# Recovery
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/recovery/init.recovery.device.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.tangorpro.rc
+
 PRODUCT_PACKAGES += \
-    sensors.dynamic_sensor_hal
+    init.recovery.tangorpro.touch.rc
+
+TARGET_RECOVERY_DEFAULT_ROTATION := ROTATION_LEFT
+TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION := $(TARGET_RECOVERY_DEFAULT_ROTATION)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(DEVICE_PATH)
+    $(DEVICE_PATH) \
+    hardware/synaptics/wlan/synadhd/config
+
+# Telecom
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.telecom.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.telecom.xml
+
+# UWB
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.uwb.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.uwb.xml
 
 # VINTF
 DEVICE_MANIFEST_FILE += \

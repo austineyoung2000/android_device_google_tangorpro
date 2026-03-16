@@ -3,7 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-BOARD_WITHOUT_RADIO := true
+# Identify the device type.
+# This flag need to be set before device/google/gs201/aosp_common.mk
+TARGET_IS_TABLET := true
 
 $(call inherit-product, device/google/gs201/aosp_common.mk)
 $(call inherit-product, device/google/tangorpro/device-tangorpro.mk)
