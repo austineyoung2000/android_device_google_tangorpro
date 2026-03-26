@@ -12,11 +12,11 @@ TARGET_KERNEL_DIR := device/google/$(TARGET_KERNEL_DEVICE)-kernels/$(TARGET_LINU
 TARGET_KERNEL_PLATFORM_SOURCE := google/gs-$(TARGET_LINUX_KERNEL_VERSION)
 
 # Identify the device type.
-# This flag need to be set before device/google/gs201/device.mk
+# This flag need to be set before device/google/gs201/common.mk
 TARGET_IS_TABLET := true
 
 # Inherit from gs201
-include device/google/gs201/device-shipping-common.mk
+include device/google/gs201/common.mk
 
 # GMS
 WITH_GMS_COMMS_SUITE := false
