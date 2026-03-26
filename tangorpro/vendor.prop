@@ -23,6 +23,9 @@ persist.vendor.camera.extended_launch_boost=1
 persist.vendor.camera.increase_thread_priority_nodes_stop=true
 persist.vendor.camera.raise_buf_allocation_priority=1
 
+# Device family
+ro.build.device_family=T6P
+
 # Display
 debug.sf.ignore_hwc_physical_display_orientation=true
 ro.bootanim.set_orientation_4619827677550801152=ORIENTATION_270
