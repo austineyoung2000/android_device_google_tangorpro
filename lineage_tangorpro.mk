@@ -28,7 +28,7 @@ AXION_MAINTAINER := EliteDarkKaiser
 AXION_PROCESSOR := Google_Tensor_G2
 
 TARGET_INCLUDE_VIPERFX := true
-WITH_PIXEL_OVERLAYS := true
+TARGET_CORE_GMS := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="tangorpro-user 16 BP4A.260205.001 14624666 release-keys" \
